@@ -60,7 +60,7 @@ function Hero() {
       'Fundraising',
       'Asset Management',
       'Liquidity Mining',
-      'Contextual Descussions',
+      'Contextual Discussions',
     ],
     loop: true,
     delaySpeed: 2000
