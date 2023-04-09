@@ -99,8 +99,8 @@ export default function Hero() {
 						<Image
 							src="/assets/hero-img.png"
 							alt="App screenshot"
-							width={1000}
-							height={500}
+							width={1248}
+							height={833}
 						/>
 					</div>
 				</div>
