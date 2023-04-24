@@ -11,7 +11,8 @@
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-simple-typewriter": "^4.0.2"
+    "react-simple-typewriter": "^4.0.2",
+    "sharp": "^0.32.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",

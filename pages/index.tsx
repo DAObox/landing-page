@@ -1,11 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Disclosure } from "@headlessui/react";
 import Image from "next/image";
 
 const Home: NextPage = () => {
 	return (
-		<>
+		<div className="bg-black">
 			<Head>
 				<title>DAO BOX</title>
 				<link
@@ -13,13 +12,7 @@ const Home: NextPage = () => {
 					href="/favicon.ico"
 				/>
 			</Head>
-
-			<Disclosure
-				as="nav"
-				className="bg-black"
-			>
-				<>
-					<div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+					<div className="bg-black mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 						<div className="relative flex h-16 justify-between">
 							<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 								<div className="flex flex-shrink-0 items-center">
@@ -44,10 +37,7 @@ const Home: NextPage = () => {
 								width={250}
 								height={250}
 							/>
-							<p className="text-2xl pb-8 text-green-300">
-								Join the revolution!
-							</p>
-							<h1 className="text-6xl pb-8">
+							<h1 className="text-5xl md:text-6xl pb-8">
 								Fueling decentralized innovation with Aragon
 							</h1>
 							<p className="text-xl">
@@ -55,7 +45,10 @@ const Home: NextPage = () => {
 								fostering innovation and accelerating the advancement of
 								decentralized technologies.
 							</p>
-							<a href="https://use-aragon.daobox.app/" target="_blank">
+							<a
+								href="https://use-aragon.daobox.app/"
+								target="_blank"
+							>
 								<button
 									type="button"
 									className="my-12 lg:mb-60 rounded-md bg-white px-12 py-4 text-sm font-semibold text-black shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
@@ -65,9 +58,7 @@ const Home: NextPage = () => {
 							</a>
 						</section>
 					</div>
-				</>
-			</Disclosure>
-		</>
+		</div>
 	);
 };
 
