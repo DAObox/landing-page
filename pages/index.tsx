@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 const Home: NextPage = () => {
 	return (
@@ -53,7 +54,7 @@ const Home: NextPage = () => {
 							type="button"
 							className="my-12 lg:mb-60 rounded-md bg-white px-12 py-4 text-sm font-semibold text-black shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
 						>
-							useAragon Hooks
+							useAragon Hooks <ArrowRightIcon className="h-4 w-4 inline" />
 						</button>
 					</a>
 				</section>
