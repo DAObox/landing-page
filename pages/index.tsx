@@ -1,115 +1,74 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import { useState, useEffect } from 'react'
-import {
-	CheckCircleIcon,
-	InformationCircleIcon,
-} from "@heroicons/react/20/solid";
-import Hero from '../components/Hero'
+import type { NextPage } from "next";
+import Head from "next/head";
+import { Disclosure } from "@headlessui/react";
+import Image from "next/image";
 
 const Home: NextPage = () => {
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-
-  return (
-    <div>
-		{/* <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-black"> */}
+	return (
+		<>
 			<Head>
 				<title>DAO BOX</title>
 				<link
 					rel="icon"
 					href="/favicon.ico"
 				/>
-				<link
-					rel="preconnect"
-					href="https://fonts.googleapis.com"
-				/>
-				<link
-					rel="preconnect"
-					href="https://fonts.gstatic.com"
-					crossOrigin="true"
-				/>
-				<link
-					href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap"
-					rel="stylesheet"
-				/>
 			</Head>
-			<Hero />
-      <Content />
 
-	</div>
+			<Disclosure
+				as="nav"
+				className="bg-black"
+			>
+				<>
+					<div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+						<div className="relative flex h-16 justify-between">
+							<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+								<div className="flex flex-shrink-0 items-center">
+									<img
+										className="block h-8 w-auto lg:hidden"
+										src="/images/logo/logo.png"
+										alt="DAOBox logo"
+									/>
+									<img
+										className="hidden h-8 w-auto lg:block"
+										src="/images/logo/logo.png"
+										alt="DAOBox logo"
+									/>
+								</div>
+							</div>
+						</div>
+						<section className="text-white body-font max-w-4xl mx-auto text-center">
+							<Image
+								className="inline py-24"
+								src="/assets/logo-blacked.png"
+								alt="logo blacked"
+								width={250}
+								height={250}
+							/>
+							<p className="text-2xl pb-8 text-green-300">
+								Join the revolution!
+							</p>
+							<h1 className="text-6xl pb-8">
+								Fueling decentralized innovation with Aragon
+							</h1>
+							<p className="text-xl">
+								We empower developers to contribute to the Aragon ecosystem,
+								fostering innovation and accelerating the advancement of
+								decentralized technologies.
+							</p>
+							<a href="https://use-aragon.daobox.app/" target="_blank">
+								<button
+									type="button"
+									className="my-12 lg:mb-60 rounded-md bg-white px-12 py-4 text-sm font-semibold text-black shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+								>
+									useAragon Hooks
+								</button>
+							</a>
+						</section>
+					</div>
+				</>
+			</Disclosure>
+		</>
 	);
-}
+};
 
-export default Home
-
-export function Content() {
-	return (
-		<div className="bg-white px-6 py-32 lg:px-8">
-			<div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-				<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-					useAragonHooks for Developers
-				</h1>
-				<div className="mt-10 max-w-2xl">
-					<p>We support developers building on Aragon.</p>
-					<ul
-						role="list"
-						className="mt-8 max-w-xl space-y-8 text-gray-600"
-					>
-						<li className="flex gap-x-3">
-							<CheckCircleIcon
-								className="mt-1 h-5 w-5 flex-none text-indigo-600"
-								aria-hidden="true"
-							/>
-							<span>
-								20+ hooks for working with AragonOSx DAOs and plugins.
-							</span>
-						</li>
-						<li className="flex gap-x-3">
-							<CheckCircleIcon
-								className="mt-1 h-5 w-5 flex-none text-indigo-600"
-								aria-hidden="true"
-							/>
-							<span>
-								Caching, request deduplication, multicall, batching, and
-								persistence.
-							</span>
-						</li>
-						<li className="flex gap-x-3">
-							<CheckCircleIcon
-								className="mt-1 h-5 w-5 flex-none text-indigo-600"
-								aria-hidden="true"
-							/>
-							<span>
-								Auto-refresh data on wallet, blovk, and network changes.
-							</span>
-						</li>
-						<li className="flex gap-x-3">
-							<CheckCircleIcon
-								className="mt-1 h-5 w-5 flex-none text-indigo-600"
-								aria-hidden="true"
-							/>
-							<span>
-								TypeScript ready.
-							</span>
-						</li>
-						<li className="flex gap-x-3">
-							<CheckCircleIcon
-								className="mt-1 h-5 w-5 flex-none text-indigo-600"
-								aria-hidden="true"
-							/>
-							<span>
-								Test suite running against forked Ethereum network.
-							</span>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	);
-}
-
+export default Home;
