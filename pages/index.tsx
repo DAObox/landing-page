@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 						</div>
 						<section className="text-white body-font max-w-4xl mx-auto text-center">
 							<Image
-								className="inline py-24"
+								className="inline my-24"
 								src="/assets/logo-blacked.png"
 								alt="logo blacked"
 								width={250}
