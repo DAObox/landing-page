@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Navbar } from "./Navbar";
 
 export function Hero() {
@@ -11,6 +12,14 @@ export function Hero() {
                 <div className="w-full h-full flex justify-center">
                     <div className="max-w-xs px-2.5 sm:px-0 sm:max-w-lg md:max-w-2xl lg:max-w-6xl w-full">
                         <Navbar />
+                        <div className="w-full flex flex-col justify-center items-center space-y-10 mt-20">
+                            <div>
+                                <Image src={"/images/logo/large-logo.png"} alt="logo" width={240} height={240} />
+                            </div>
+                            <div>
+                                <h1 className="text-5xl font-medium max-w-2xl text-center text-white">The Future Of Dao Tooling Starts Here</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
