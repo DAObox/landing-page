@@ -11,6 +11,10 @@ module.exports = {
       fontFamily: {
         'sans': ['DM Sans', 'sans-serif'],
       },
+      colors: {
+        "primary": "#1E1E1E",
+        "secondary": "#096EC4"
+      }
     },
   },
   plugins: [],
