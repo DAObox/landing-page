@@ -1,12 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import { Hero } from "../components/Hero";
+import { Projects } from "../components/Projects";
 
 const Home: NextPage = () => {
 	return (
-		<div className="bg-gradient-to-r from-[#1E203C] to-[#11121B] w-full min-h-screen">
+		<div className="bg-gradient-to-r from-[#1E203C] to-[#11121B] w-full">
 			<Head>
 				<title>DAO BOX</title>
 				<link
@@ -14,8 +13,9 @@ const Home: NextPage = () => {
 					href="/favicon.ico"
 				/>
 			</Head>
-			<main className="w-full relative">
+			<main className="w-full relative h-full">
 				<Hero />
+				<Projects />
 			</main>
 		</div>
 	);
