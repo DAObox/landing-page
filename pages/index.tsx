@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Hero } from "../components/Hero";
 import { Projects } from "../components/Projects";
 import { Hooks } from "../components/Hooks";
+import { Sponsors } from "../components/Sponsors";
 
 const Home: NextPage = () => {
 	return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
 					<Hero />
 					<Projects />
 					<Hooks />
+					<Sponsors />
 				</div>
 			</main>
 		</div>
