@@ -6,6 +6,7 @@ import { Hooks } from "../components/Hooks";
 import { Sponsors } from "../components/Sponsors";
 import { Footer } from "../components/Footer";
 import { Vision } from "../components/Vision";
+import Newsletter from "../components/Newsletter";
 
 const Home: NextPage = () => {
 	return (
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
 					<Hooks />
 					<Sponsors />
 					<Vision />
+					<Newsletter />
 					<Footer />
 				</div>
 			</main>
