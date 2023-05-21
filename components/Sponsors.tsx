@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import lensLogo from "../public/assets/lens.png";
 
 export function Sponsors() {
     return(
@@ -15,7 +16,7 @@ export function Sponsors() {
                     <h5 className="text-2xl text-white font-medium">Sponsors: </h5>
                 </div>
                 <div>
-                    <Image src={"/assets/lens.png"} width={35} height={35} alt="logo" />
+                    <Image src={lensLogo} width={35} height={35} alt="logo" />
                 </div>
             </motion.div>
         </div>

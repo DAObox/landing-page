@@ -5,7 +5,7 @@ export const projects = [
         badge: "Aragon Plugin",
         description: 'Lens Protocol is a blockchain protocol that allows developers to build decentralized applications and marketplaces for the buying and selling of synthetic assets. The Lens Protocol plugin, also known as the "Lens Wallet"',
         image: "/assets/project-card-icon-1.png",
-        href: "/"
+        href: "https://github.com/DAObox/lens-voting"
     },
     {
         id: "2",
@@ -13,7 +13,7 @@ export const projects = [
         badge: "Aragon Plugin",
         description: 'Lens Protocol is a blockchain protocol that allows developers to build decentralized applications and marketplaces for the buying and selling of synthetic assets. The Lens Protocol plugin, also known as the "Lens Wallet"',
         image: "/assets/project-card-icon-2.png",
-        href: "/"
+        href: "https://github.com/DAObox/optimistic-proposal-plugin"
     },
     {
         id: "3",
@@ -21,6 +21,6 @@ export const projects = [
         badge: "Aragon Plugin",
         description: 'Lens Protocol is a blockchain protocol that allows developers to build decentralized applications and marketplaces for the buying and selling of synthetic assets. The Lens Protocol plugin, also known as the "Lens Wallet"',
         image: "/assets/project-card-icon-1.png",
-        href: "/"
+        href: "https://github.com/DAObox/liquid-protocol"
     }
 ]
