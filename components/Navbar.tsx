@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Navbar() {
     return(
-        <div className="w-full bg-white mt-8 bg-transparent">
+        <div className="w-full bg-transparent mt-8 bg-none">
             <div className="w-full flex items-center justify-between h-fit">
                 <div>
                     <Image src={"/images/logo/logo.png"} alt="logo" width={182} height={44} />

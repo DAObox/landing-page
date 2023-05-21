@@ -13,9 +13,13 @@ module.exports = {
       },
       colors: {
         "primary": "#1E1E1E",
-        "secondary": "#096EC4"
+        "secondary": "#096EC4",
+        "green": "#02AB76",
+        "black": "#1E293B",
+        "border": "#475569",
+        "gray": "#94A3B8"
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
