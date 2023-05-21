@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Hero } from "../components/Hero";
 import { Projects } from "../components/Projects";
+import { Hooks } from "../components/Hooks";
 
 const Home: NextPage = () => {
 	return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
 				<div className="space-y-20">
 					<Hero />
 					<Projects />
+					<Hooks />
 				</div>
 			</main>
 		</div>
