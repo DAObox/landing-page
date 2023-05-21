@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export function Footer() {
     return(
-        <footer className="footer items-center p-4 text-neutral-content px-10">
-            <div className="items-center grid-flow-col">
+        <footer className="flex items-center text-white justify-between space-x-2.5 sm:justify-between px-2.5 sm:px-5 py-5">
+            <div className="items-center grid-flow-col w-8">
                 <Image src={"/assets/dao-d.png"} alt="logo" width={32} height={32} />
-            </div> 
-            <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+            </div>
+            <div className="flex space-x-2.5">
                 <Link href={"/"}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current">
                         <path
