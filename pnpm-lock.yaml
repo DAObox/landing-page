@@ -25,6 +25,9 @@ dependencies:
   react-simple-typewriter:
     specifier: ^4.0.2
     version: 4.0.5(react-dom@18.1.0)(react@18.1.0)
+  react-social-icons:
+    specifier: ^5.15.0
+    version: 5.15.0(react@18.1.0)
   sharp:
     specifier: ^0.32.0
     version: 0.32.0
@@ -847,6 +850,14 @@ packages:
       tunnel-agent: 0.6.0
     dev: false
 
+  /prop-types@15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: false
+
   /pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
     dependencies:
@@ -881,6 +892,10 @@ packages:
       scheduler: 0.22.0
     dev: false
 
+  /react-is@16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+    dev: false
+
   /react-simple-typewriter@4.0.5(react-dom@18.1.0)(react@18.1.0):
     resolution: {integrity: sha512-2CmVpD1kTifRE8gixr2z+1aYS136ZbAC/UATNzvkzl4tSiThT/ATXH4rOGVwWLTlOWCVnSewObXo/kJlV2HMxw==}
     engines: {node: '>=14'}
@@ -890,6 +905,15 @@ packages:
     dependencies:
       react: 18.1.0
       react-dom: 18.1.0(react@18.1.0)
+    dev: false
+
+  /react-social-icons@5.15.0(react@18.1.0):
+    resolution: {integrity: sha512-khfDgUiUwEBe34T6br2+mkXQg3hLVDdviVjexxZoVCsogMgxTy/m8+KlX/j6Wa7P2BPxgZ7yZ2jXw3X06pUUFQ==}
+    peerDependencies:
+      react: 15.x.x || 16.x.x || 17.x.x || 18.x.x
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.1.0
     dev: false
 
   /react@18.1.0:

@@ -14,7 +14,7 @@ export default function Newsletter() {
                     <div className="w-full">
                         <div className="form-control">
                             <div className="input-group">
-                                <input type="text" placeholder="Search…" className="input input-bordered w-full" />
+                                <input type="text" placeholder="Your email" className="input input-bordered w-full" />
                                 <button className="btn btn-square btn-success w-fit px-2.5 text-white">
                                     Subscribe
                                 </button>
