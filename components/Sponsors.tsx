@@ -1,16 +1,23 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export function Sponsors() {
     return(
         <div className="bg-black-2 p-10">
-            <div className="flex h-fit space-x-2.5 justify-center items-center">
+            <motion.div
+                initial={{ opacity: -50, x: -50 }}
+                animate={{ x: 1, opacity: 1 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 10 }}
+                className="flex h-fit space-x-2.5 justify-center items-center"
+            >
                 <div>
                     <h5 className="text-2xl text-white font-medium">Sponsors: </h5>
                 </div>
                 <div>
                     <Image src={"/assets/lens.png"} width={35} height={35} alt="logo" />
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }

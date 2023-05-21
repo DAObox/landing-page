@@ -2,11 +2,20 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowSmRightIcon } from "@heroicons/react/solid"
 import { ProjectCardType } from "../types/typings"
+import { motion, useScroll } from "framer-motion"
 
 export function ProjectCard({ title, badge, description, image, href }: ProjectCardType) {
     return (
-        <Link href={href}>
-            <div className="w-[300px] sm:w-[285px] md:w-[325px] lg:w-[315px] xl:w-[375px] min-h-fit h-full card bg-black shadow-xl p-4 lg:p-8 space-y-4 justify-between">
+        <motion.a
+            initial={{ opacity: 0.25, y: -10 }}
+            animate={{ y: 1, opacity: 1 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1.5 }}
+            viewport={{ once: false }}
+            href={href} target="_blank"
+        >
+            <div className="w-[300px] sm:w-[285px] md:w-[325px] lg:w-[315px] xl:w-[375px] min-h-fit h-full card bg-black 
+            shadow-xl p-4 lg:p-8 space-y-4 justify-between hover:border-2 hover:border-green hover:scale-105 transition duration-300">
                 <div className="w-full flex justify-between items-center">
                     <div>
                         <Image src={image} alt="icon" width={20} height={20} />
@@ -34,7 +43,7 @@ export function ProjectCard({ title, badge, description, image, href }: ProjectC
                     </Link>
                 </div>
             </div>            
-        </Link>
+        </motion.a>
 
     )
 }

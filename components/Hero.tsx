@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Navbar } from "./Navbar";
+import { motion } from "framer-motion"
 
 export function Hero() {
     return (
@@ -16,8 +17,26 @@ export function Hero() {
                         </div>
                         <div>
                             <div className="text-2xl sm:text-4xl md:text-5xl font-medium max-w-2xl text-center text-white">
-                                <h1 className="hidden sm:block">On a mission to make DAOs</h1>
-                                <h1 className="hidden sm:block">accessible to everyone</h1>
+                                <motion.h1
+                                    initial={{ opacity: 0.25, y: -10 }}
+                                    animate={{ y: 1, opacity: 1 }}
+                                    whileInView={{ opacity: 1 }}
+                                    transition={{ duration: 1.5 }}
+                                    viewport={{ once: false }}
+                                    className="hidden sm:block"
+                                >
+                                    On a mission to make DAOs
+                                </motion.h1>
+                                <motion.h1
+                                    initial={{ opacity: 0.25, y: 1 }}
+                                    animate={{ y: -10, opacity: 1 }}
+                                    whileInView={{ opacity: 1 }}
+                                    transition={{ duration: 2.25 }}
+                                    viewport={{ once: false }}
+                                    className="hidden sm:block"
+                                >
+                                    accessible to everyone
+                                </motion.h1>
                                 <h1 className="sm:hidden">On a mission to make</h1>
                                 <h1 className="sm:hidden">DAOs accessible to</h1>
                                 <h1 className="sm:hidden">everyone</h1>

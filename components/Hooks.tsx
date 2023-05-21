@@ -1,4 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 export function Hooks() {
@@ -6,12 +7,24 @@ export function Hooks() {
         <div className="w-screen h-fit bg-no-repeat bg-center bg-cover bg-[url('/assets/stripes.png')] flex flex-col items-center justify-center">
             <div className="bg-no-repeat bg-center bg-cover bg-[url('/assets/fill.png')] bg-blend-color py-2.5 px-10">
                 <Link href={"/"}>
-                    <div className="flex space-x-1 items-center bg-none">
-                        <h2 className="text-2xl sm:text-4xl md:text-5xl text-white font-medium">useAragon React Hooks</h2>
+                    <motion.div
+                        initial="hidden"
+                        animate="visible"
+                        whileInView={{ x: 1, opacity: 1 }}
+                        transition={{ duration: 1.5 }}          
+                        whileHover={{ x: 50, opacity: 1 }}
+                        viewport={{ once: false }}
+                        variants={{
+                            visible: { x: 1, opacity: 1 },
+                            hidden: { opacity: 0.25, x: -10 }
+                        }}            
+                        className="flex space-x-1 items-center bg-none group"
+                    >
+                        <h2 className="text-2xl sm:text-4xl md:text-5xl text-white font-medium group-hover:text-green">useAragon React Hooks</h2>
                         <div>
-                            <ArrowRightIcon className="w-6 h-6 sm:w-10 sm:h-10 md:w-16 md:h-16 text-white" />
+                            <ArrowRightIcon className="w-6 h-6 sm:w-10 sm:h-10 md:w-16 md:h-16 text-white group-hover:text-green" />
                         </div>
-                    </div>                
+                    </motion.div>                
                 </Link>                
             </div>
         </div>
