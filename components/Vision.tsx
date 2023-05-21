@@ -26,7 +26,6 @@ export function Vision() {
                         </div>
                     </div>
                 </div>
-                <div></div>
             </div>
         </div>
     )
