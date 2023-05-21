@@ -4,6 +4,8 @@ import { Hero } from "../components/Hero";
 import { Projects } from "../components/Projects";
 import { Hooks } from "../components/Hooks";
 import { Sponsors } from "../components/Sponsors";
+import { Footer } from "../components/Footer";
+import { Vision } from "../components/Vision";
 
 const Home: NextPage = () => {
 	return (
@@ -25,6 +27,8 @@ const Home: NextPage = () => {
 					<Projects />
 					<Hooks />
 					<Sponsors />
+					<Vision />
+					<Footer />
 				</div>
 			</main>
 		</div>
