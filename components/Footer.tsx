@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export function Footer() {
     return (
