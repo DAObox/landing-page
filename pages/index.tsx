@@ -13,9 +13,15 @@ const Home: NextPage = () => {
 					href="/favicon.ico"
 				/>
 			</Head>
-			<main className="w-full relative h-full">
-				<Hero />
-				<Projects />
+			<main className="w-full relative min-h-screen h-full">
+				<div className="w-full absolute top-0 left-0">
+					<div className="bg-[url('/images/backgrounds/blue-shade.png')] bg-no-repeat bg-center bg-cover w-[calc(100%)] sm:w-[calc(75%)] 
+						md:w-[calc(50%)] h-full min-h-[450px] lg:min-h-[600px] rounded-br-full" />
+				</div>
+				<div className="space-y-20">
+					<Hero />
+					<Projects />
+				</div>
 			</main>
 		</div>
 	);
