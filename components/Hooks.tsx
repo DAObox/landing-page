@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Hooks() {
     return(
-        <div className="w-screen h-48 bg-no-repeat bg-center bg-cover bg-[url('/assets/stripes.png')] flex flex-col items-center justify-center">
+        <div className="w-screen h-fit bg-no-repeat bg-center bg-cover bg-[url('/assets/stripes.png')] flex flex-col items-center justify-center">
             <div className="bg-no-repeat bg-center bg-cover bg-[url('/assets/fill.png')] bg-blend-color py-2.5 px-10">
                 <Link href={"/"}>
                     <div className="flex space-x-1 items-center bg-none">

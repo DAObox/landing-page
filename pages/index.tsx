@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 					<div className="bg-[url('/images/backgrounds/blue-shade.png')] bg-no-repeat bg-center bg-cover w-[calc(100%)] sm:w-[calc(75%)] 
 						md:w-[calc(50%)] h-full min-h-[450px] lg:min-h-[600px] rounded-br-full" />
 				</div>
-				<div className="space-y-20">
+				<div className="space-y-10 sm:space-y-14 lg:space-y-20">
 					<Hero />
 					<Projects />
 					<Hooks />
