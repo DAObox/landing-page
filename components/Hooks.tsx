@@ -8,16 +8,12 @@ export function Hooks() {
             <div className="bg-no-repeat bg-center bg-cover bg-[url('/assets/fill.png')] bg-blend-color py-2.5 px-10">
                 <Link href={"/"}>
                     <motion.div
-                        initial="hidden"
-                        animate="visible"
+                        initial={{ opacity: 0.25, x: -10 }}
+                        animate={{ x: 1, opacity: 1 }}
                         whileInView={{ x: 1, opacity: 1 }}
                         transition={{ duration: 1.5 }}          
                         whileHover={{ x: 50, opacity: 1 }}
-                        viewport={{ once: false }}
-                        variants={{
-                            visible: { x: 1, opacity: 1 },
-                            hidden: { opacity: 0.25, x: -10 }
-                        }}            
+                        viewport={{ once: false }}  
                         className="flex space-x-1 items-center bg-none group"
                     >
                         <h2 className="text-2xl sm:text-4xl md:text-5xl text-white font-medium group-hover:text-green">useAragon React Hooks</h2>

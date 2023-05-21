@@ -1,13 +1,43 @@
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export function Footer() {
     return(
         <footer className="flex items-center text-white justify-between space-x-2.5 sm:justify-between px-2.5 sm:px-5 py-5">
-            <div className="items-center grid-flow-col w-8">
+            <motion.div
+                initial={{
+                    x: -500,
+                    opacity: 0,
+                    scale: 0.5
+                }}
+                animate={{
+                    x: 0,
+                    opacity: 1,
+                    scale: 1
+                }}
+                transition={{
+                    duration: 5
+                }}
+                className="items-center grid-flow-col w-8"
+            >
                 <Image src={"/assets/dao-d.png"} alt="logo" width={32} height={32} />
-            </div>
-            <div className="flex space-x-2.5">
+            </motion.div>
+            <motion.div
+                initial={{
+                    x: 500,
+                    opacity: 0,
+                    scale: 0.5
+                }}
+                animate={{
+                    x: 0,
+                    opacity: 1,
+                    scale: 1
+                }}
+                transition={{
+                    duration: 5
+                }}
+                className="flex space-x-2.5">
                 <Link href={"/"}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current">
                         <path
@@ -47,7 +77,7 @@ export function Footer() {
                         </defs>
                     </svg>
                 </Link>
-            </div>
+            </motion.div>
         </footer>
     )
 }
