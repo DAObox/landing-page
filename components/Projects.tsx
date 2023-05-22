@@ -10,7 +10,7 @@ export function Projects() {
                     <h5 className="text-2xl text-white font-medium">Projects</h5>
                     <span><Image src={"/assets/projects-icon.png"} alt="icon" width={30} height={30} /></span>
                 </div>
-                <div className="mt-5 w-full grid sm:grid-cols-2 lg:grid-cols-3 gap-y-4 sm:gap-x-2 md:gap-x-4">
+                <div className="mt-5 w-full grid sm:grid-cols-2 lg:grid-cols-3 gap-y-8 sm:gap-x-2 md:gap-x-4">
                     {
                         projects.map(project => <ProjectCard key={project.id} title={project.title} badge={project.badge}
                             description={project.description} image={project.image} href={project.href} />)
