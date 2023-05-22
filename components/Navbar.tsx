@@ -18,7 +18,7 @@ export function Navbar() {
 								height={44}
 							/>
 						</div>
-                        <div className="w-full flex justify-center mr:w-40 text-white">
+                        <div className="w-full flex justify-center lg:mr-40 text-white">
                             <Link
                                 href={"/"}
                                 className="mt-2.5"
