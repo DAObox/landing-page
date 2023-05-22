@@ -10,7 +10,7 @@ export function Navbar() {
                 lg:px-5 xl:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-6xl"
 				>
 					<div className="w-full flex items-center justify-between h-fit">
-						<div>
+						<div className="w-40">
 							<Image
 								src={daoboxLogo}
 								alt="logo"
@@ -18,13 +18,14 @@ export function Navbar() {
 								height={44}
 							/>
 						</div>
-						<Link
-							href={"/"}
-							className="mt-2.5 text-white"
-						>
-						Vision
-						</Link>
-						<div className="hidden lg:block" />
+                        <div className="w-full flex justify-center lg:mr-40 text-white">
+                            <Link
+                                href={"/"}
+                                className="mt-2.5"
+                            >
+                                Vision
+                            </Link>                            
+                        </div>
 					</div>
 				</div>
 			</div>
