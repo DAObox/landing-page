@@ -2,13 +2,14 @@ import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import daoFooterLogo from "../public/assets/dao-d.png";
 
 export function Footer() {
     return (
 			<footer className="flex items-center text-white justify-between space-x-2.5 sm:justify-between px-2.5 sm:px-5 py-5">
 				<div className="items-center grid-flow-col w-8">
 					<Image
-						src={"/assets/dao-d.png"}
+						src={daoFooterLogo}
 						alt="logo"
 						width={32}
 						height={32}
