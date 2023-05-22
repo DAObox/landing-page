@@ -12,16 +12,26 @@ const Home: NextPage = () => {
 	return (
 		<div className="bg-gradient-to-r from-[#1E203C] to-[#11121B] w-full">
 			<Head>
-				<title>DAO BOX</title>
+				<title>DAOBox</title>
 				<link
 					rel="icon"
 					href="/favicon.ico"
 				/>
+				<meta
+					name="description"
+					content="DAOBox is a decentralized organization that empowers communities through building tools to enable wider access to blockchain governance technology."
+				/>
+				<meta
+					name="twitter:site"
+					content="@daobox_app"
+				/>
 			</Head>
 			<main className="w-full relative min-h-screen h-full">
 				<div className="w-full absolute top-0 left-0">
-					<div className="bg-[url('/images/backgrounds/blue-shade.png')] bg-no-repeat bg-center bg-cover w-[calc(100%)] sm:w-[calc(75%)] 
-						md:w-[calc(50%)] h-full min-h-[450px] lg:min-h-[600px] rounded-br-full" />
+					<div
+						className="bg-[url('/images/backgrounds/blue-shade.png')] bg-no-repeat bg-center bg-cover w-[calc(100%)] sm:w-[calc(75%)] 
+						md:w-[calc(50%)] h-full min-h-[450px] lg:min-h-[600px] rounded-br-full"
+					/>
 				</div>
 				<div className="space-y-10 sm:space-y-14 lg:space-y-20">
 					<Hero />
