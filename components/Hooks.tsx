@@ -8,7 +8,7 @@ export function Hooks() {
 				<div className="bg-no-repeat bg-center bg-cover bg-[url('/assets/fill.png')] bg-blend-color py-2.5 px-10">
 					<Link target="_blank" href={"https://use-aragon.daobox.app/"}>
 						<motion.div
-							initial={{ opacity: 0.25, x: -10 }}
+							initial={{ opacity: 0.25, x: -5 }}
 							animate={{ x: 1, opacity: 1 }}
 							whileInView={{ x: 1, opacity: 1 }}
 							transition={{ duration: 1.5 }}
