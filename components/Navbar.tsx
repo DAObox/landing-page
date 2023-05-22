@@ -18,13 +18,14 @@ export function Navbar() {
 								height={44}
 							/>
 						</div>
-						<Link
-							href={"/"}
-							className="mt-2.5 text-white lg:mr-40"
-						>
-						Vision
-						</Link>
-						<div className="hidden lg:block" />
+                        <div className="w-full flex justify-center">
+                            <Link
+                                href={"/"}
+                                className="mt-2.5 text-white lg:mr-40"
+                            >
+                                Vision
+                            </Link>                            
+                        </div>
 					</div>
 				</div>
 			</div>

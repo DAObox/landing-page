@@ -1,6 +1,5 @@
 import { motion } from "framer-motion"
 import { useState } from "react";
-import { NextPage } from "next";
 import fetch from "isomorphic-unfetch";
 
 export default function Newsletter() {
