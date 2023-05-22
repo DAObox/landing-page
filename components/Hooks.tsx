@@ -18,7 +18,7 @@ export function Hooks() {
 								visible: { x: 1, opacity: 1 },
 								hidden: { opacity: 0.25, x: -10 },
 							}}
-							className="flex space-x-1 items-center bg-none group"
+							className="flex space-x-1 items-center bg-none group hover:cursor-pointer"
 						>
 							<h2 className="text-2xl sm:text-4xl md:text-5xl text-white font-medium group-hover:text-green">
 								useAragon React Hooks
