@@ -10,7 +10,7 @@ export function Navbar() {
                 lg:px-5 xl:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-6xl"
 				>
 					<div className="w-full flex items-center justify-between h-fit">
-						<div>
+						<div className="w-40">
 							<Image
 								src={daoboxLogo}
 								alt="logo"
@@ -20,7 +20,7 @@ export function Navbar() {
 						</div>
 						<Link
 							href={"/"}
-							className="mt-2.5 text-white"
+							className="mt-2.5 text-white lg:mr-40"
 						>
 						Vision
 						</Link>

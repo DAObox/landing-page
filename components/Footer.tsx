@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import daoFooterLogo from "../public/assets/dao-d.png";
 
 export function Footer() {

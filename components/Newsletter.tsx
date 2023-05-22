@@ -65,7 +65,7 @@ export default function Newsletter() {
 						</div>
 					</motion.div>
 					<motion.div
-						initial={{ opacity: 0.25, x: 150 }}
+						initial={{ opacity: 0.25, x:45 }}
 						animate={{ x: 1, opacity: 1 }}
 						whileInView={{ x: 1, opacity: 1 }}
 						transition={{ duration: 5 }}
