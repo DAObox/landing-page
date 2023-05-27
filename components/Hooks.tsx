@@ -5,7 +5,7 @@ import Link from "next/link";
 export function Hooks() {
     return (
 			<div className="w-screen h-fit bg-no-repeat bg-center bg-cover bg-[url('/assets/stripes.png')] flex flex-col items-center justify-center">
-				<div className="bg-no-repeat bg-center bg-cover bg-[url('/assets/fill.png')] bg-blend-color py-2.5 px-10">
+				<div className="py-2.5 px-10">
 					<Link target="_blank" href={"https://use-aragon.daobox.app/"}>
 						<motion.div
 							initial={{ opacity: 0.25, x: -5 }}
