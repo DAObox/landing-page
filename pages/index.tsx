@@ -22,9 +22,9 @@ const Home: NextPage = () => {
           content="@daobox_app"
         />
       </Head>
-      <main className="w-full">
+      <main className="flex flex-col items-center justify-center w-full">
         <Navbar />
-        <div className="h-full px-5 md:px-14 xl:max-w-6xl">
+        <div className="w-full h-full px-5 py-8 md:px-14 xl:max-w-6xl">
           <Hero />
         </div>
       </main>
