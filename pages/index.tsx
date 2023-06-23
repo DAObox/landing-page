@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Preview from "../components/Preview";
 
 const Home: NextPage = () => {
   return (
@@ -22,10 +23,11 @@ const Home: NextPage = () => {
           content="@daobox_app"
         />
       </Head>
-      <main className="flex flex-col items-center justify-center w-full">
+      <main className="flex flex-col items-center justify-center w-full h-full">
         <Navbar />
-        <div className="w-full h-full px-5 py-8 md:px-14 xl:max-w-6xl">
+        <div className="w-full h-full px-5 py-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-6xl">
           <Hero />
+          <Preview />
         </div>
       </main>
     </div>
