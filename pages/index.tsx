@@ -3,7 +3,8 @@ import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-gradient-to-r from-[#1E203C] to-[#11121B] w-full">
+    <div className="flex items-center justify-center relative w-full min-h-screen bg-gray bg-[url('/mobile-gradient.png')] md:bg-[url('/tablet-gradient.png')] 
+    xl:bg-[url('/tablet-gradient.png')] bg-no-repeat bg-center bg-cover">
       <Head>
         <title>DAOBox</title>
         <link
@@ -19,17 +20,10 @@ const Home: NextPage = () => {
           content="@daobox_app"
         />
       </Head>
-      <main className="relative w-full min-h-screen bg-gray bg-[url('/mobile-gradient.png')] md:bg-[url('/tablet-gradient.png')] 
-      xl:bg-[url('/tablet-gradient.png')] bg-no-repeat bg-center bg-cover">
+      <main className="w-full h-10 px-8 md:px-14 xl:max-w-6xl">
       </main>
     </div>
   );
 };
 
 export default Home;
-
-{/* <div className="w-full h-full">
-  <div className="absolute flex justify-center flex-shrink-0 w-full h-full -rotate-90 -top-[600px]">
-    <div className="rounded-grad min-w-[65%] min-h-[65%]" />
-  </div>
-</div> */}
