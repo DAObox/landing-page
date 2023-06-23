@@ -19,12 +19,8 @@ const Home: NextPage = () => {
           content="@daobox_app"
         />
       </Head>
-      <main className="relative w-full min-h-screen bg-gray">
-        <div className="w-full h-full">
-          <div className="absolute flex justify-center flex-shrink-0 w-full h-[500px] -rotate-90 md:h-full -top-44 md:-top-96">
-            <div className="rounded-grad min-w-[80%] min-h-[80%] md:min-w-[65%] md:min-h-[65%] blur-[300px] rounded-full" />
-          </div>
-        </div>
+      <main className="relative w-full min-h-screen bg-gray bg-[url('/mobile-gradient.png')] md:bg-[url('/tablet-gradient.png')] 
+      xl:bg-[url('/tablet-gradient.png')] bg-no-repeat bg-center bg-cover">
       </main>
     </div>
   );
