@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex items-center justify-center relative w-full min-h-screen bg-gray bg-[url('/mobile-gradient.png')] md:bg-[url('/tablet-gradient.png')] 
+    <div className="flex justify-center relative w-full min-h-screen bg-gray bg-[url('/mobile-gradient.png')] md:bg-[url('/tablet-gradient.png')] 
     xl:bg-[url('/tablet-gradient.png')] bg-no-repeat bg-center bg-cover">
       <Head>
         <title>DAOBox</title>
@@ -20,7 +21,9 @@ const Home: NextPage = () => {
           content="@daobox_app"
         />
       </Head>
-      <main className="w-full h-10 px-8 md:px-14 xl:max-w-6xl">
+      <main className="w-full">
+        <Navbar />
+        <div className="h-full px-8 md:px-14 xl:max-w-6xl"></div>
       </main>
     </div>
   );
