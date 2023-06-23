@@ -1,12 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Hero } from "../components/Hero";
-import { Projects } from "../components/Projects";
-import { Hooks } from "../components/Hooks";
-import { Sponsors } from "../components/Sponsors";
-import { Footer } from "../components/Footer";
-import { Vision } from "../components/Vision";
-import Newsletter from "../components/Newsletter";
 
 const Home: NextPage = () => {
 	return (
@@ -26,23 +19,7 @@ const Home: NextPage = () => {
 					content="@daobox_app"
 				/>
 			</Head>
-			<main className="w-full relative min-h-screen h-full">
-				<div className="w-full absolute top-0 left-0">
-					<div
-						className="bg-[url('/images/backgrounds/blue-shade.png')] bg-no-repeat bg-center bg-cover w-[calc(100%)] sm:w-[calc(75%)] 
-						md:w-[calc(50%)] h-full min-h-[450px] lg:min-h-[600px] rounded-br-full"
-					/>
-				</div>
-				<div className="space-y-10 sm:space-y-14 lg:space-y-20">
-					<Hero />
-					<Projects />
-					<Hooks />
-					<Sponsors />
-					<Vision />
-					<Newsletter />
-					<Footer />
-				</div>
-			</main>
+			<main></main>
 		</div>
 	);
 };
