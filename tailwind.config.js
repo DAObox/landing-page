@@ -12,13 +12,7 @@ module.exports = {
         'sans': ['DM Sans', 'sans-serif'],
       },
       colors: {
-        "primary": "#1E1E1E",
-        "secondary": "#096EC4",
-        "green": "#02AB76",
-        "black": "#1E293B",
-        "black-2": "#101725",
-        "border": "#475569",
-        "gray": "#94A3B8"
+        "gray": "#090C11"
       }
     },
   },
