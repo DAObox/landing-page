@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
   return (
@@ -23,7 +24,9 @@ const Home: NextPage = () => {
       </Head>
       <main className="w-full">
         <Navbar />
-        <div className="h-full px-8 md:px-14 xl:max-w-6xl"></div>
+        <div className="h-full px-5 md:px-14 xl:max-w-6xl">
+          <Hero />
+        </div>
       </main>
     </div>
   );
