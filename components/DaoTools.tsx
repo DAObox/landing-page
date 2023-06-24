@@ -24,7 +24,7 @@ export default function DaoTools() {
                     >
                         <div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
                             <div className="w-full h-full bg-[url('/grid.png')] bg-no-repeat bg-cover bg-center pt-10 space-y-2">
-                                <div className="p-[0.25px] rounded-full max-w-fit backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                                <div className="p-[0.25px] rounded-full max-w-[50px] backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
                                     <div className="w-full h-full rounded-full bg-[#22262B] p-2.5 -rotate-[50deg]">
                                         <Image
                                             src={"/lens.png"}
@@ -61,7 +61,7 @@ export default function DaoTools() {
                                     </h5>
                                 </div>
                                 <div className="space-y-2">
-                                    <div className="p-[0.25px] rounded-full max-w-fit backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                                    <div className="p-[0.25px] rounded-full max-w-[50px] backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
                                         <div className="w-full h-full rounded-full bg-[#22262B] p-2.5 -rotate-[50deg]">
                                             <Image
                                                 src={"/dark-logo.png"}
@@ -96,7 +96,7 @@ export default function DaoTools() {
                                     </h5>
                                 </div>
                                 <div className="space-y-2">
-                                    <div className="p-[0.25px] rounded-full max-w-fit backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                                    <div className="p-[0.25px] rounded-full max-w-[50px] backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
                                         <div className="w-full h-full rounded-full bg-[#22262B] p-2.5 -rotate-[50deg]">
                                             <Image
                                                 src={"/dark-logo.png"}
@@ -128,7 +128,7 @@ export default function DaoTools() {
                                     </h5>
                                 </div>
                                 <div className="space-y-2">
-                                    <div className="p-[0.25px] rounded-full max-w-fit backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                                    <div className="p-[0.25px] rounded-full max-w-[50px] backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
                                         <div className="w-full h-full rounded-full bg-[#22262B] p-2.5 -rotate-[50deg]">
                                             <Image
                                                 src={"/dark-logo.png"}
@@ -157,7 +157,7 @@ export default function DaoTools() {
                         >
                             <div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
                                 <div className="w-full h-full bg-[url('/grid.png')] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
-                                    <div className="p-[0.25px] rounded-full max-w-fit backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                                    <div className="p-[0.25px] rounded-full max-w-[50px] backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
                                         <div className="w-full h-full rounded-full bg-[#22262B] p-2.5 -rotate-[50deg]">
                                             <Image
                                                 src={"/optimistic.png"}
@@ -189,7 +189,7 @@ export default function DaoTools() {
                 >
                     <div className="w-full p-6 rounded-lg h-fit bg-trans-gray-2">
                         <div className="w-full h-full bg-[url('/grid.png')] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
-                            <div className="p-[0.25px] rounded-full max-w-fit backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                            <div className="p-[0.25px] rounded-full max-w-[50px] backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
                                 <div className="w-full h-full rounded-full bg-[#22262B] p-2.5 -rotate-[50deg]">
                                     <Image
                                         src={"/optimistic.png"}
