@@ -14,7 +14,10 @@ module.exports = {
       colors: {
         "gray": "#090C11",
         "light-gray": "#F8FAFC",
-        "dark-gray": "#0D1118"
+        "dark-gray": "#0D1118",
+        "trans-gray": "#101725",
+        "trans-gray-2": "#0C1016",
+        "ash": "#BABABA"
       }
     },
   },

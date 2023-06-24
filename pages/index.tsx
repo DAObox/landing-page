@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Preview from "../components/Preview";
+import DaoTools from "../components/DaoTools";
 
 const Home: NextPage = () => {
   return (
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
         <div className="w-full h-full px-5 py-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-6xl">
           <Hero />
           <Preview />
+          <DaoTools />
         </div>
       </main>
     </div>

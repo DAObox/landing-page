@@ -25,7 +25,8 @@ export default function Hero() {
                     </button>
                     <button className="w-full max-w-[243px] bg-transparent rounded-lg p-[0.5px]
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A]">
-                        <div className="py-2.5 font-semibold flex items-center space-x-0.5 bg-dark-gray w-full rounded-lg justify-center">
+                        <div className="py-2.5 font-semibold flex items-center space-x-0.5 bg-[#123A4F]
+                        sm:bg-[#123C5D] md:bg-[#123C5D] lg:bg-[#114063] w-full rounded-lg justify-center">
                             <p className="text-light-gray">Build with us</p>
                             <span><ChevronRightIcon className="w-6 h-6 text-light-gray" /></span>
                         </div>
