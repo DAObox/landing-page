@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Preview from "../components/Preview";
 import DaoTools from "../components/DaoTools";
+import Experience from "../components/Experience";
 
 const Home: NextPage = () => {
   return (
@@ -30,6 +31,7 @@ const Home: NextPage = () => {
           <Hero />
           <Preview />
           <DaoTools />
+          <Experience />
         </div>
       </main>
     </div>

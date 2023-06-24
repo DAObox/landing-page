@@ -17,7 +17,8 @@ module.exports = {
         "dark-gray": "#0D1118",
         "trans-gray": "#101725",
         "trans-gray-2": "#0C1016",
-        "ash": "#BABABA"
+        "ash": "#BABABA",
+        "trans-ash": "#9C9C9C"
       }
     },
   },
