@@ -62,7 +62,7 @@ export default function DaoTools() {
                                 </div>
                                 <div className="space-y-2">
                                     <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-                                        <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg]">
+                                        <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
                                             <Image
                                                 src={"/dark-logo.png"}
                                                 width={35}
