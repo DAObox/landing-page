@@ -24,8 +24,8 @@ export default function DaoTools() {
                     >
                         <div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
                             <div className="w-full h-full bg-[url('/grid.png')] bg-no-repeat bg-cover bg-center pt-10 space-y-2">
-                                <div className="p-[0.25px] rounded-full max-w-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-                                    <div className="w-full h-full rounded-full bg-[#22262B] p-2.5 -rotate-[50deg]">
+                                <div className="p-[0.25px] rounded-full max-w-fit w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                                    <div className="w-full h-full rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
                                         <Image
                                             src={"/lens.png"}
                                             width={35}
