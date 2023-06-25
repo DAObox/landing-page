@@ -28,20 +28,14 @@ export default function Footer() {
                                 <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
                             </Link>
                             <div className="flex space-x-4 lg:hidden">
-                                <Link href={"/"}>
-                                    <div className="relative max-h-[24px] max-w-[24px]">
-                                        <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
-                                    </div>
+                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
+                                    <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                                 </Link>
-                                <Link href={"/"}>
-                                    <div className="relative max-h-[24px] max-w-[24px]">
-                                        <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
-                                    </div>
+                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
+                                    <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
                                 </Link>
-                                <Link href={"/"}>
-                                    <div className="relative max-h-[24px] max-w-[24px]">
-                                        <Image src={"/github.png"} width={24} height={24} alt="github icon" />
-                                    </div>
+                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
+                                    <Image src={"/github.png"} width={24} height={24} alt="github icon" />
                                 </Link>
                             </div>
                         </div>
@@ -58,21 +52,15 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="hidden space-x-4 lg:flex">
-                            <Link href={"/"}>
-                                <div className="relative max-h-[24px] max-w-[24px]">
-                                    <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
-                                </div>
+                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
+                                <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                             </Link>
-                            <Link href={"/"}>
-                                <div className="relative max-h-[24px] max-w-[24px]">
-                                    <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
-                                </div>
+                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
+                                <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
                             </Link>
-                            <Link href={"/"}>
-                                <div className="relative max-h-[24px] max-w-[24px]">
-                                    <Image src={"/github.png"} width={24} height={24} alt="github icon" />
-
-                                </div>                           </Link>
+                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
+                                <Image src={"/github.png"} width={24} height={24} alt="github icon" />
+                            </Link>
                         </div>
                     </div>
                 </div>
