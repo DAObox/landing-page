@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Spotlight, { SpotlightCard } from "./Spotlight";
 
 export default function DaoTools() {
     return (
@@ -16,40 +17,41 @@ export default function DaoTools() {
                     </p>
                 </div>
             </div>
-            <div className="space-y-6">
-                <div className="flex max-h-full space-x-6">
-                    <div
-                        className="max-w-sm sm:max-w-full lg:w-full bg-transparent rounded-lg p-[0.5px]
-                bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A]"
+            <Spotlight className="space-y-6">
+                <Spotlight className="flex max-h-full space-x-6">
+                    <SpotlightCard
+                        className="max-w-sm sm:max-w-full lg:w-full bg-transparent rounded-lg p-[0.5px] bg-gradient-to-br from-[#1017251A] 
+                            via-white to-[#1017251A]"
                     >
-                        <div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
-                            <div className="w-full h-full bg-[url('/grid.png')] bg-no-repeat bg-cover bg-center pt-10 space-y-2">
-                                <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-                                    <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
-                                        <Image
-                                            src={"/lens.png"}
-                                            width={35}
-                                            height={35}
-                                            alt="icon"
-                                        />
+                        <div>
+                            <div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
+                                <div className="w-full h-full bg-[url('/grid.png')] bg-no-repeat bg-cover bg-center pt-10 space-y-2">
+                                    <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                                        <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
+                                            <Image
+                                                src={"/lens.png"}
+                                                width={35}
+                                                height={35}
+                                                alt="icon"
+                                            />
+                                        </div>
                                     </div>
+                                    <h5 className="text-2xl font-semibold leading-8 text-white">
+                                        Lens Voting Plugin
+                                    </h5>
+                                    <p className="text-ash">
+                                        Lens Voting Plugin empowers Lens Follow NFT holders to
+                                        actively engage in governance actions within AragonOSx-powered
+                                        DAOs. By leveraging the plugin's functions, users can access
+                                        vital information, create proposals, exercise their voting
+                                        power, and contribute to shaping the future of their specific
+                                        DAO ecosystem.
+                                    </p>
                                 </div>
-                                <h5 className="text-2xl font-semibold leading-8 text-white">
-                                    Lens Voting Plugin
-                                </h5>
-                                <p className="text-ash">
-                                    Lens Voting Plugin empowers Lens Follow NFT holders to
-                                    actively engage in governance actions within AragonOSx-powered
-                                    DAOs. By leveraging the plugin's functions, users can access
-                                    vital information, create proposals, exercise their voting
-                                    power, and contribute to shaping the future of their specific
-                                    DAO ecosystem.
-                                </p>
                             </div>
                         </div>
-                    </div>
-
-                    <div
+                    </SpotlightCard>
+                    <SpotlightCard
                         className="max-w-sm sm:max-w-full lg:max-w-sm bg-transparent rounded-lg p-[0.5px]
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] w-full hidden lg:block"
                     >
@@ -80,11 +82,11 @@ export default function DaoTools() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </SpotlightCard>
+                </Spotlight>
 
-                <div className="flex flex-col w-full space-y-6 sm:flex-row sm:space-x-6 sm:space-y-0 lg:space-x-0">
-                    <div
+                <Spotlight className="flex flex-col w-full space-y-6 sm:flex-row sm:space-x-6 sm:space-y-0 lg:space-x-0">
+                    <SpotlightCard
                         className="max-w-sm sm:max-w-full lg:max-w-sm bg-transparent rounded-lg p-[0.5px]
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] w-full lg:hidden"
                     >
@@ -115,8 +117,8 @@ export default function DaoTools() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div
+                    </SpotlightCard>
+                    <SpotlightCard
                         className="max-w-sm sm:max-w-full lg:max-w-sm bg-transparent rounded-lg p-[0.5px]
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] w-full"
                     >
@@ -148,42 +150,43 @@ export default function DaoTools() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </SpotlightCard>
 
-                    <div className="hidden w-full h-full lg:pl-6 lg:block">
-                        <div
-                            className="max-w-sm sm:max-w-full bg-transparent rounded-lg p-[0.5px]
+                    <Spotlight className="hidden w-full h-full lg:pl-6 lg:block">
+                        <SpotlightCard>
+                            <div
+                                className="max-w-sm sm:max-w-full bg-transparent rounded-lg p-[0.5px]
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] h-full"
-                        >
-                            <div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
-                                <div className="w-full h-full bg-[url('/grid.png')] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
-                                    <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-                                        <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
-                                            <Image
-                                                src={"/optimistic.png"}
-                                                width={35}
-                                                height={35}
-                                                alt="icon"
-                                            />
+                            >
+                                <div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
+                                    <div className="w-full h-full bg-[url('/grid.png')] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
+                                        <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
+                                            <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
+                                                <Image
+                                                    src={"/optimistic.png"}
+                                                    width={35}
+                                                    height={35}
+                                                    alt="icon"
+                                                />
+                                            </div>
                                         </div>
+                                        <h5 className="text-2xl font-semibold leading-8 text-white">
+                                            Optimistic Voting Plugin
+                                        </h5>
+                                        <p className="text-ash">
+                                            Optimistic voting plugin streamlines the decision-making
+                                            process in decentralized autonomous organizations (DAOs) by
+                                            leveraging subjective oracle flow. Malicious proposals can be
+                                            effectively challenged, thus addressing the issues of trust
+                                            and security in DAOs.
+                                        </p>
                                     </div>
-                                    <h5 className="text-2xl font-semibold leading-8 text-white">
-                                        Optimistic Voting Plugin
-                                    </h5>
-                                    <p className="text-ash">
-                                        Optimistic voting plugin streamlines the decision-making
-                                        process in decentralized autonomous organizations (DAOs) by
-                                        leveraging subjective oracle flow. Malicious proposals can be
-                                        effectively challenged, thus addressing the issues of trust
-                                        and security in DAOs.
-                                    </p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div
+                        </SpotlightCard>
+                    </Spotlight>
+                </Spotlight>
+                <SpotlightCard
                     className="max-w-sm sm:max-w-full  bg-transparent rounded-lg p-[0.5px]
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] lg:hidden"
                 >
@@ -211,8 +214,8 @@ export default function DaoTools() {
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
+                </SpotlightCard>
+            </Spotlight>
         </div>
     );
 }
