@@ -15,7 +15,9 @@ export default function Footer() {
                     <div className="flex flex-col space-y-6 sm:space-y-0 sm:flex-row sm:space-x-20">
                         <div className="flex flex-col space-y-4">
                             <h6 className="text-lg text-white">Product</h6>
-                            <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
+                            <Link href={"/"}>
+                                <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
+                            </Link>
                             <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
                             <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
                             <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
