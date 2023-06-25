@@ -19,6 +19,17 @@ export default function Footer() {
                             <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
                             <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
                             <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
+                            <div className="flex space-x-4 lg:hidden">
+                                <Link href={"/"}>
+                                    <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
+                                </Link>
+                                <Link href={"/"}>
+                                    <Image src={"/discord.png"} width={24} height={24} alt="twitter icon" />
+                                </Link>
+                                <Link href={"/"}>
+                                    <Image src={"/github.png"} width={24} height={24} alt="twitter icon" />
+                                </Link>
+                            </div>
                         </div>
                         <div className="flex flex-col space-y-4">
                             <h6 className="text-lg text-white">Resources</h6>
@@ -26,7 +37,7 @@ export default function Footer() {
                             <Link href={"/"} className="text-lg text-trans-ash">Contact</Link>
                             <Link href={"/"} className="text-lg text-trans-ash">Brand style</Link>
                         </div>
-                        <div className="flex space-x-4">
+                        <div className="hidden space-x-4 lg:flex">
                             <Link href={"/"}>
                                 <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                             </Link>
@@ -43,7 +54,7 @@ export default function Footer() {
                     <div>
                         <Image src={"/half-trans-logo.png"} width={200} height={200} alt="icon" />
                     </div>
-                    <h6 className="text-lg text-dark-ash">2023 DAOBox</h6>
+                    <h6 className="text-lg text-trans-ash">2023 DAOBox</h6>
                 </div>
             </div>
         </div>
