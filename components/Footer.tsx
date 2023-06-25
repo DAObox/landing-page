@@ -77,8 +77,8 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="flex items-center justify-between">
-                    <div className="relative max-h-[200px] max-w-[200px]">
-                        <Image src={"/half-trans-logo.png"} width={200} height={200} alt="icon" />
+                    <div className="relative max-h-[150px] max-w-[200px]">
+                        <Image src={"/half-trans-logo.png"} width={200} height={150} alt="icon" />
                     </div>
                     <h6 className="text-lg text-trans-ash">2023 DAOBox</h6>
                 </div>
