@@ -4,7 +4,7 @@ export default function Subscribe() {
     return (
         <div className="w-full h-full max-w-lg lg:max-w-2xl">
             <div className="flex justify-between w-full h-[375px]">
-                <div className="mt-20 w-[6px] h-full relative">
+                <div className="mt-20 w-[6px] h-[375px] relative">
                     <Image src={"/laser.png"} width={6} height={6} alt="laser" />
                 </div>
                 <div>
