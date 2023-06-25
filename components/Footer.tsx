@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <div className="flex flex-col items-center w-screen h-full bg-dark-gray">
-            <div className="w-full px-5 pt-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-6xl">
+            <div className="w-full px-5 pt-8 space-y-20 lg:space-y-36 md:px-14 x[24px]:max-w-[24px]xl">
                 <div className="flex flex-col w-full space-y-6 sm:space-y-0 sm:flex-row sm:justify-between">
                     <div>
                         <div className="flex items-center space-x-1.5">
@@ -28,33 +28,37 @@ export default function Footer() {
                                 <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
                             </Link>
                             <div className="flex space-x-4 lg:hidden">
-                                <Link href={"/"} className="relative flex-grow-0">
+                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
                                     <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                                 </Link>
-                                <Link href={"/"} className="relative flex-grow-0">
+                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
                                     <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
                                 </Link>
-                                <Link href={"/"} className="relative flex-grow-0">
+                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
                                     <Image src={"/github.png"} width={24} height={24} alt="github icon" />
                                 </Link>
                             </div>
                         </div>
                         <div className="flex flex-col space-y-4">
                             <h6 className="text-lg text-white">Resources</h6>
-                            <Link href={"/"} className="text-lg text-trans-ash">
-                            <p className="text-lg text-trans-ash">Documentation</p>
+                            <Link href={"/"}>
+                                <p className="text-lg text-trans-ash">Documentation</p>
                             </Link>
-                            <Link href={"/"} className="text-lg text-trans-ash">Contact</Link>
-                            <Link href={"/"} className="text-lg text-trans-ash">Brand style</Link>
+                            <Link href={"/"}>
+                                <p className="text-lg text-trans-ash">Contact</p>
+                            </Link>
+                            <Link href={"/"}>
+                                <p className="text-lg text-trans-ash">Brand style</p>
+                            </Link>
                         </div>
                         <div className="hidden space-x-4 lg:flex">
-                            <Link href={"/"} className="relative flex-grow-0">
+                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
                                 <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                             </Link>
-                            <Link href={"/"} className="relative flex-grow-0">
+                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
                                 <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
                             </Link>
-                            <Link href={"/"} className="relative flex-grow-0">
+                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
                                 <Image src={"/github.png"} width={24} height={24} alt="github icon" />
                             </Link>
                         </div>
