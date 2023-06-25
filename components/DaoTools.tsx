@@ -18,7 +18,7 @@ export default function DaoTools() {
                 </div>
             </div>
             <Spotlight className="space-y-6">
-                <Spotlight className="flex space-x-6 h-[350px]">
+                <Spotlight className="flex space-x-6 h-full sm:h-[350px]">
                     <SpotlightCard
                         className="max-w-sm sm:max-w-full lg:w-full bg-transparent rounded-lg p-[0.5px] bg-gradient-to-br from-[#1017251A] 
                             via-white to-[#1017251A] h-full"
@@ -85,7 +85,7 @@ export default function DaoTools() {
                     </SpotlightCard>
                 </Spotlight>
 
-                <Spotlight className="flex flex-col w-full space-y-6 sm:flex-row sm:space-x-6 sm:space-y-0 lg:space-x-0 h-[375px]">
+                <Spotlight className="flex flex-col w-full space-y-6 sm:flex-row sm:space-x-6 sm:space-y-0 lg:space-x-0 h-full sm:h-[375px]">
                     <SpotlightCard
                         className="max-w-sm sm:max-w-full lg:max-w-sm bg-transparent rounded-lg p-[0.5px]
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] w-full lg:hidden h-full"
