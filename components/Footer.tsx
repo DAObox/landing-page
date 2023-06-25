@@ -28,15 +28,21 @@ export default function Footer() {
                                 <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
                             </Link>
                             <div className="flex space-x-4 lg:hidden">
-                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
-                                    <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
+                                <Link href={"/"}>
+                                    <div className="relative max-h-[24px] max-w-[24px]">
+                                        <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
+                                    </div>
                                 </Link>
-                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
-                                    <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
+                                <Link href={"/"}>
+                                    <div className="relative max-h-[24px] max-w-[24px]">
+                                        <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
+                                    </div>
                                 </Link>
-                                <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
-                                    <Image src={"/github.png"} width={24} height={24} alt="github icon" />
-                                </Link>
+                                <Link href={"/"}>
+                                    <div className="relative max-h-[24px] max-w-[24px]">
+                                        <Image src={"/github.png"} width={24} height={24} alt="github icon" />
+
+                                    </div>                               </Link>
                             </div>
                         </div>
                         <div className="flex flex-col space-y-4">
@@ -52,15 +58,21 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="hidden space-x-4 lg:flex">
-                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
-                                <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
+                            <Link href={"/"}>
+                                <div className="relative max-h-[24px] max-w-[24px]">
+                                    <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
+                                </div>
                             </Link>
-                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
-                                <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
+                            <Link href={"/"}>
+                                <div className="relative max-h-[24px] max-w-[24px]">
+                                    <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
+                                </div>
                             </Link>
-                            <Link href={"/"} className="relative max-h-[24px] max-w-[24px]">
-                                <Image src={"/github.png"} width={24} height={24} alt="github icon" />
-                            </Link>
+                            <Link href={"/"}>
+                                <div className="relative max-h-[24px] max-w-[24px]">
+                                    <Image src={"/github.png"} width={24} height={24} alt="github icon" />
+
+                                </div>                           </Link>
                         </div>
                     </div>
                 </div>
