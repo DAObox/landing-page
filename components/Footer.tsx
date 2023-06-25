@@ -22,14 +22,14 @@ export default function Footer() {
                             <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
                             <Link href={"/"} className="text-lg text-trans-ash">Lens Voting Plugin</Link>
                             <div className="flex space-x-4 lg:hidden">
-                                <Link href={"/"}>
+                                <Link href={"/"} className="flex-grow-0">
                                     <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                                 </Link>
-                                <Link href={"/"}>
-                                    <Image src={"/discord.png"} width={24} height={24} alt="twitter icon" />
+                                <Link href={"/"} className="flex-grow-0">
+                                    <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
                                 </Link>
-                                <Link href={"/"}>
-                                    <Image src={"/github.png"} width={24} height={24} alt="twitter icon" />
+                                <Link href={"/"} className="flex-grow-0">
+                                    <Image src={"/github.png"} width={24} height={24} alt="github icon" />
                                 </Link>
                             </div>
                         </div>
@@ -40,14 +40,14 @@ export default function Footer() {
                             <Link href={"/"} className="text-lg text-trans-ash">Brand style</Link>
                         </div>
                         <div className="hidden space-x-4 lg:flex">
-                            <Link href={"/"}>
+                            <Link href={"/"} className="flex-grow-0">
                                 <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                             </Link>
-                            <Link href={"/"}>
-                                <Image src={"/discord.png"} width={24} height={24} alt="twitter icon" />
+                            <Link href={"/"} className="flex-grow-0">
+                                <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
                             </Link>
-                            <Link href={"/"}>
-                                <Image src={"/github.png"} width={24} height={24} alt="twitter icon" />
+                            <Link href={"/"} className="flex-grow-0">
+                                <Image src={"/github.png"} width={24} height={24} alt="github icon" />
                             </Link>
                         </div>
                     </div>
