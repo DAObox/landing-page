@@ -10,7 +10,7 @@ import Subscribe from "../components/Subscribe";
 const Home: NextPage = () => {
   return (
     <div className="flex justify-center relative w-full min-h-screen bg-gray bg-[url('/mobile-gradient.png')] md:bg-[url('/tablet-gradient.png')] 
-    xl:bg-[url('/tablet-gradient.png')] bg-no-repeat bg-center bg-cover h-full">
+    xl:bg-[url('/tablet-gradient.png')] bg-no-repeat bg-center bg-cover">
       <Head>
         <title>DAOBox</title>
         <link
