@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Subscribe() {
     return (
-        <div className="w-full max-w-lg lg:max-w-2xl">
+        <div className="w-full h-full max-w-lg lg:max-w-2xl">
             <div className="flex justify-between w-full h-full">
                 <div className="mt-20">
                     <Image src={"/laser.png"} width={6} height={6} alt="laser" />
