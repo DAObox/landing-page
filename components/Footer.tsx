@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <div className="flex flex-col items-center w-screen h-full bg-dark-gray">
-            <div className="w-full px-5 pt-8 space-y-20 lg:space-y-36 md:px-14 x[24px]:max-w-[24px]xl">
+            <div className="w-full h-full px-5 pt-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-6xl">
                 <div className="flex flex-col w-full space-y-6 sm:space-y-0 sm:flex-row sm:justify-between">
                     <div>
                         <div className="flex items-center space-x-1.5">
