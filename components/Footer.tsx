@@ -41,8 +41,8 @@ export default function Footer() {
                                 <Link href={"/"}>
                                     <div className="relative max-h-[24px] max-w-[24px]">
                                         <Image src={"/github.png"} width={24} height={24} alt="github icon" />
-
-                                    </div>                               </Link>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                         <div className="flex flex-col space-y-4">
