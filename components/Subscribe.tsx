@@ -16,7 +16,9 @@ export default function Subscribe() {
                 <p className="text-2xl text-trans-ash">Subscribe to our waitlist.</p>
                 <div className="bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] p-[0.5px] bg-[#101318] rounded-2xl max-w-sm">
                     <div className="flex bg-[#101318] p-2.5 space-x-1.5 rounded-2xl">
-                        <input type="text" placeholder="Email address" className="w-full bg-[#101318] focus:outline-0" />
+                        <input type="text" placeholder="Email address" className="w-full bg-[#101318] focus:outline-0 
+                        placeholder-transparent placeholder:bg-clip-text placeholder:bg-gradient-to-br 
+                        placeholder:from-trans-gray placeholder:via-white placeholder:to-trans-gray text-white" />
                         <button className="flex justify-center px-5 bg-white rounded-lg w-fit">
                             <div className="font-semibold flex items-center justify-center space-x-0.5 w-20 p-2.5">
                                 <p>Subscribe</p>
