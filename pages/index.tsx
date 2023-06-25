@@ -6,6 +6,7 @@ import Preview from "../components/Preview";
 import DaoTools from "../components/DaoTools";
 import Experience from "../components/Experience";
 import Subscribe from "../components/Subscribe";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -28,12 +29,13 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex flex-col items-center justify-center w-full h-full">
         <Navbar />
-        <div className="flex flex-col items-center w-full h-full px-5 py-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-6xl">
+        <div className="flex flex-col items-center w-full h-full px-5 pt-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-6xl">
           <Hero />
           <Preview />
           <DaoTools />
           <Experience />
           <Subscribe />
+          <Footer />
         </div>
       </main>
     </div>
