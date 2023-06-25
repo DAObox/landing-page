@@ -19,13 +19,13 @@ export default function Footer() {
                                 <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
                             </Link>
                             <Link href={"/"}>
-                                <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
+                                <p className="text-lg text-trans-ash">Optimistic Voting Plugin</p>
                             </Link>
                             <Link href={"/"}>
-                                <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
+                                <p className="text-lg text-trans-ash">Liquid Protocol</p>
                             </Link>
                             <Link href={"/"}>
-                                <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
+                                <p className="text-lg text-trans-ash">Aragon React Hooks</p>
                             </Link>
                             <div className="flex space-x-4 lg:hidden">
                                 <Link href={"/"}>
