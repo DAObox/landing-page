@@ -27,7 +27,7 @@ export default function Footer() {
                             <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash hover:cursor-pointer">Aragon React Hooks</p>
                             </Link>
-                            <div className="flex space-x-4 lg:hidden">
+                            <div className="flex pt-2 space-x-4 sm:hidden">
                                 <Link href={"/"} className="max-w-fit">
                                     <div className="relative max-h-[24px] max-w-[24px]">
                                         <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
@@ -56,6 +56,23 @@ export default function Footer() {
                             <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash hover:cursor-pointer">Brand style</p>
                             </Link>
+                            <div className="hidden space-x-4 sm:flex lg:hidden">
+                                <Link href={"/"} className="max-w-fit">
+                                    <div className="relative max-h-[24px] max-w-[24px]">
+                                        <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
+                                    </div>
+                                </Link>
+                                <Link href={"/"} className="max-w-fit">
+                                    <div className="relative max-h-[24px] max-w-[24px]">
+                                        <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
+                                    </div>
+                                </Link>
+                                <Link href={"/"} className="max-w-fit">
+                                    <div className="relative max-h-[24px] max-w-[24px]">
+                                        <Image src={"/github.png"} width={24} height={24} alt="github icon" />
+                                    </div>
+                                </Link>
+                            </div>
                         </div>
                         <div className="hidden space-x-4 lg:flex">
                             <Link href={"/"} className="max-w-fit">

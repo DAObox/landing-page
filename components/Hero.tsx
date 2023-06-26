@@ -12,8 +12,8 @@ export default function Hero() {
                     sm:leading-[70px] flex flex-col justify-center items-center"
 							>
 								<h1 className="flex space-x-4">
-									<span className={Panchang.className}>Building tools</span>
-									<span className="hidden lg:block">to make</span>
+									<span className={Panchang.className}>Building tools <span className="hidde lg:block xl:hidden">to make</span></span>
+									<span className="hidden xl:block">to make</span>
 								</h1>
 								<h1 className="lg:hidden">to make DAOs</h1>
 								<h1 className="flex space-x-4">
@@ -37,7 +37,7 @@ export default function Hero() {
 					<div className="flex flex-col items-center justify-center w-full space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
 						<button className="flex justify-center w-full max-w-[243px] bg-white rounded-lg">
 							<div className="py-2.5 font-semibold flex items-center space-x-0.5">
-								<p>Join us</p>
+								<p className="text-black">Join us</p>
 								<span>
 									<ChevronRightIcon className="w-6 h-6 text-black" />
 								</span>

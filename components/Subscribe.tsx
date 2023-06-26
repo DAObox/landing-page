@@ -29,7 +29,7 @@ export default function Subscribe() {
 				</div>
 				<div className="flex flex-col items-center w-full -mt-32 space-y-4 text-center">
 					<div className={Panchang.className}>
-						<h1 className="text-3xl font-medium text-center text-transparent sm:text-5xl bg-clip-text bg-gradient-to-br from-trans-gray text-white">
+						<h1 className="text-3xl font-medium text-center text-transparent text-white sm:text-5xl bg-clip-text bg-gradient-to-br from-trans-gray">
 							Access DAOs through innovative tools
 						</h1>
 					</div>
@@ -45,7 +45,7 @@ export default function Subscribe() {
 							/>
 							<button className="flex justify-center px-5 bg-white rounded-lg w-fit">
 								<div className="font-semibold flex items-center justify-center space-x-0.5 w-20 p-2.5">
-									<p>Subscribe</p>
+									<p className="text-black">Subscribe</p>
 									<span>
 										<ChevronRightIcon className="w-6 h-6 text-black" />
 									</span>

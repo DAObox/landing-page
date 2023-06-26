@@ -22,7 +22,7 @@ export default function Navbar() {
                         <ChevronDownIcon className="w-6 h-6 text-white" />
                     </div>
                     <button className="px-12 py-2.5 bg-white rounded-lg font-semibold flex items-center space-x-0.5">
-                        <p>Join Us</p>
+                        <p className="text-black">Join Us</p>
                         <span><ChevronRightIcon className="w-6 h-6 text-black" /></span>
                     </button>
                 </div>
