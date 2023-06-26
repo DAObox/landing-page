@@ -7,9 +7,6 @@ dependencies:
   '@heroicons/react':
     specifier: ^1.0.6
     version: 1.0.6(react@18.1.0)
-  '@next/font':
-    specifier: ^13.4.7
-    version: 13.4.7
   daisyui:
     specifier: ^2.51.6
     version: 2.51.6(autoprefixer@10.4.14)(postcss@8.4.21)
@@ -20,7 +17,7 @@ dependencies:
     specifier: ^4.0.2
     version: 4.0.2
   next:
-    specifier: latest
+    specifier: ^13.1.0
     version: 13.4.7(react-dom@18.1.0)(react@18.1.0)
   react:
     specifier: 18.1.0
@@ -85,10 +82,6 @@ packages:
 
   /@next/env@13.4.7:
     resolution: {integrity: sha512-ZlbiFulnwiFsW9UV1ku1OvX/oyIPLtMk9p/nnvDSwI0s7vSoZdRtxXNsaO+ZXrLv/pMbXVGq4lL8TbY9iuGmVw==}
-    dev: false
-
-  /@next/font@13.4.7:
-    resolution: {integrity: sha512-l28ifb3pjKznQeXmiCD5VXkmqdpMrcUQMr4ZChAgTKrjckl/aGyRLOIlL/ABhTHmzMujdt/TTWUsdABArNK5gA==}
     dev: false
 
   /@next/swc-darwin-arm64@13.4.7:

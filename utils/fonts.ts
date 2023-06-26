@@ -1,4 +1,4 @@
-import localFont from "@next/font/local";
+import localFont from "next/font/local";
 
 export const Panchang = localFont({
 	src: "../public/fonts/Panchang-Variable.woff2",

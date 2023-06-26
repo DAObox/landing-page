@@ -8,11 +8,10 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^1.0.6",
-    "@next/font": "^13.4.7",
     "daisyui": "^2.51.6",
     "express": "^4.18.2",
     "isomorphic-unfetch": "^4.0.2",
-    "next": "latest",
+    "next": "^13.1.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-social-icons": "^5.15.0",
