@@ -16,16 +16,16 @@ export default function Footer() {
                         <div className="flex flex-col space-y-4">
                             <h6 className="text-lg text-white">Product</h6>
                             <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Lens Voting Plugin</p>
                             </Link>
                             <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash">Optimistic Voting Plugin</p>
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Optimistic Voting Plugin</p>
                             </Link>
                             <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash">Liquid Protocol</p>
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Liquid Protocol</p>
                             </Link>
                             <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash">Aragon React Hooks</p>
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Aragon React Hooks</p>
                             </Link>
                             <div className="flex space-x-4 lg:hidden">
                                 <Link href={"/"} className="max-w-fit">
@@ -48,13 +48,13 @@ export default function Footer() {
                         <div className="flex flex-col space-y-4">
                             <h6 className="text-lg text-white">Resources</h6>
                             <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash">Documentation</p>
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Documentation</p>
                             </Link>
                             <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash">Contact</p>
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Contact</p>
                             </Link>
                             <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash">Brand style</p>
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Brand style</p>
                             </Link>
                         </div>
                         <div className="hidden space-x-4 lg:flex">
@@ -80,7 +80,7 @@ export default function Footer() {
                     <div className="relative max-h-[150px] max-w-[200px]">
                         <Image src={"/half-trans-logo.png"} width={200} height={150} alt="icon" />
                     </div>
-                    <h6 className="text-lg text-trans-ash">2023 DAOBox</h6>
+                    <h6 className="text-lg text-trans-ash hover:cursor-pointer">2023 DAOBox</h6>
                 </div>
             </div>
         </div>
