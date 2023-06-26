@@ -4,7 +4,7 @@ import { ChevronDownIcon, ChevronRightIcon, MenuAlt3Icon } from "@heroicons/reac
 export default function Navbar() {
     return (
         <div className="bg-opacity-10 backdrop-blur-[43px] w-full flex flex-col items-center justify-center sticky top-0 z-10">
-            <div className="flex items-center justify-between w-full px-5 py-8 md:px-14 xl:max-w-6xl">
+            <div className="flex items-center justify-between w-full px-5 py-6 md:px-14 xl:max-w-6xl">
                 <div className="flex items-center space-x-1.5">
                     <Image src={"/favicon.ico"} width={30} height={30} alt="icon" />
                     <h1 className="text-2xl font-semibold text-white">DAOBox</h1>
