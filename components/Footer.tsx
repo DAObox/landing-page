@@ -15,30 +15,30 @@ export default function Footer() {
                     <div className="flex flex-col space-y-6 sm:space-y-0 sm:flex-row sm:space-x-20">
                         <div className="flex flex-col space-y-4">
                             <h6 className="text-lg text-white">Product</h6>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash">Lens Voting Plugin</p>
                             </Link>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash">Optimistic Voting Plugin</p>
                             </Link>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash">Liquid Protocol</p>
                             </Link>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash">Aragon React Hooks</p>
                             </Link>
                             <div className="flex space-x-4 lg:hidden">
-                                <Link href={"/"}>
+                                <Link href={"/"} className="max-w-fit">
                                     <div className="relative max-h-[24px] max-w-[24px]">
                                         <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                                     </div>
                                 </Link>
-                                <Link href={"/"}>
+                                <Link href={"/"} className="max-w-fit">
                                     <div className="relative max-h-[24px] max-w-[24px]">
                                         <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
                                     </div>
                                 </Link>
-                                <Link href={"/"}>
+                                <Link href={"/"} className="max-w-fit">
                                     <div className="relative max-h-[24px] max-w-[24px]">
                                         <Image src={"/github.png"} width={24} height={24} alt="github icon" />
                                     </div>
@@ -47,28 +47,28 @@ export default function Footer() {
                         </div>
                         <div className="flex flex-col space-y-4">
                             <h6 className="text-lg text-white">Resources</h6>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash">Documentation</p>
                             </Link>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash">Contact</p>
                             </Link>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash">Brand style</p>
                             </Link>
                         </div>
                         <div className="hidden space-x-4 lg:flex">
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <div className="relative max-h-[24px] max-w-[24px]">
                                     <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
                                 </div>
                             </Link>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <div className="relative max-h-[24px] max-w-[24px]">
                                     <Image src={"/discord.png"} width={24} height={24} alt="discord icon" />
                                 </div>
                             </Link>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="max-w-fit">
                                 <div className="relative max-h-[24px] max-w-[24px]">
                                     <Image src={"/github.png"} width={24} height={24} alt="github icon" />
                                 </div>
