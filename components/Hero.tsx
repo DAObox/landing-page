@@ -48,8 +48,7 @@ export default function Hero() {
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A]"
 						>
 							<div
-								className="py-2.5 font-semibold flex items-center space-x-0.5 bg-[#123A4F]
-                        sm:bg-[#123C5D] md:bg-[#123C5D] lg:bg-[#114063] w-full rounded-lg justify-center"
+								className="py-2.5 font-semibold flex items-center space-x-0.5 bg-gray w-full rounded-lg justify-center"
 							>
 								<p className="text-light-gray">Build with us</p>
 								<span>

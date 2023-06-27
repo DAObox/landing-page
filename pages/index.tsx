@@ -10,8 +10,7 @@ import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex justify-center relative w-full min-h-screen bg-gray bg-[url('/mobile-gradient.png')] md:bg-[url('/tablet-gradient.png')] 
-    xl:bg-[url('/tablet-gradient.png')] bg-no-repeat bg-center bg-cover h-full">
+    <div className="relative flex justify-center w-full h-full min-h-screen bg-gray">
       <Head>
         <title>DAOBox</title>
         <link
