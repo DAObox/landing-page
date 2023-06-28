@@ -28,7 +28,19 @@ export default function Footer() {
                             <Link href={"/"} className="max-w-fit">
                                 <p className="text-lg text-trans-ash hover:cursor-pointer">Aragon React Hooks</p>
                             </Link>
-                            <div className="flex pt-2 space-x-4 sm:hidden">
+                        </div>
+                        <div className="flex flex-col space-y-4">
+                            <h6 className="text-lg text-white">Resources</h6>
+                            <Link href={"/"} className="max-w-fit">
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Documentation</p>
+                            </Link>
+                            <Link href={"/"} className="max-w-fit">
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Contact</p>
+                            </Link>
+                            <Link href={"/"} className="max-w-fit">
+                                <p className="text-lg text-trans-ash hover:cursor-pointer">Brand style</p>
+                            </Link>
+                            <div className="hidden space-x-4 sm:flex lg:hidden">
                                 <Link href={"/"} className="max-w-fit">
                                     <div className="relative max-h-[24px] max-w-[24px]">
                                         <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
@@ -45,19 +57,7 @@ export default function Footer() {
                                     </div>
                                 </Link>
                             </div>
-                        </div>
-                        <div className="flex flex-col space-y-4">
-                            <h6 className="text-lg text-white">Resources</h6>
-                            <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash hover:cursor-pointer">Documentation</p>
-                            </Link>
-                            <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash hover:cursor-pointer">Contact</p>
-                            </Link>
-                            <Link href={"/"} className="max-w-fit">
-                                <p className="text-lg text-trans-ash hover:cursor-pointer">Brand style</p>
-                            </Link>
-                            <div className="hidden space-x-4 sm:flex lg:hidden">
+                            <div className="flex pt-2 space-x-4 sm:hidden">
                                 <Link href={"/"} className="max-w-fit">
                                     <div className="relative max-h-[24px] max-w-[24px]">
                                         <Image src={"/twitter.png"} width={24} height={24} alt="twitter icon" />
