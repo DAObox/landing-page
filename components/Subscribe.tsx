@@ -4,13 +4,14 @@ import { Panchang } from "../utils/fonts";
 
 export default function Subscribe() {
     return (
-			<div className="w-full h-full max-w-lg lg:max-w-3xl">
-				<div className="flex justify-between w-full h-[375px]">
+			<div className="flex flex-col items-center justify-center w-full h-full max-w-lg lg:max-w-4xl">
+				<div className="flex justify-center lg:justify-between w-full h-[375px]">
 					<Image
 						src={"/laser.png"}
 						width={6}
 						height={6}
 						alt="laser"
+						className="hidden lg:block"
 					/>
 					<div>
 						<Image
@@ -25,11 +26,12 @@ export default function Subscribe() {
 						width={6}
 						height={6}
 						alt="laser"
+						className="hidden lg:block"
 					/>
 				</div>
-				<div className="flex flex-col items-center w-full -mt-32 space-y-4 text-center">
+				<div className="flex flex-col items-center w-full -mt-32 space-y-4 text-center lg:max-w-3xl">
 					<div className={Panchang.className}>
-						<h1 className="text-3xl font-medium text-center text-transparent sm:text-5xl bg-clip-text bg-gradient-to-br from-trans-gray text-white">
+						<h1 className="text-3xl font-medium text-center text-transparent text-white sm:text-5xl bg-clip-text bg-gradient-to-br from-trans-gray">
 							Access DAOs through innovative tools
 						</h1>
 					</div>
@@ -39,13 +41,11 @@ export default function Subscribe() {
 							<input
 								type="text"
 								placeholder="Email address"
-								className="w-full bg-[#101318] focus:outline-0 
-                        placeholder-transparent placeholder:bg-clip-text placeholder:bg-gradient-to-br 
-                        placeholder:from-trans-gray placeholder:via-white placeholder:to-trans-gray text-white"
+								className="w-full bg-[#101318] focus:outline-0 placeholder:text-trans-ash text-trans-ash"
 							/>
 							<button className="flex justify-center px-5 bg-white rounded-lg w-fit">
 								<div className="font-semibold flex items-center justify-center space-x-0.5 w-20 p-2.5">
-									<p>Subscribe</p>
+									<p className="text-black">Subscribe</p>
 									<span>
 										<ChevronRightIcon className="w-6 h-6 text-black" />
 									</span>
