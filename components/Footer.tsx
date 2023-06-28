@@ -22,16 +22,18 @@ export default function Footer() {
 							<div className="flex flex-col space-y-4">
 								<h6 className="text-lg text-white">Product</h6>
 								<Link
-									href={"/"}
+									href={"https://github.com/DAObox/lens-voting"}
 									className="max-w-fit"
+									target="_blank"
 								>
 									<p className="text-lg text-trans-ash hover:cursor-pointer">
 										Lens Voting Plugin
 									</p>
 								</Link>
 								<Link
-									href={"/"}
+									href={"https://github.com/DAObox/optimistic-proposal-plugin"}
 									className="max-w-fit"
+									target="_blank"
 								>
 									<p className="text-lg text-trans-ash hover:cursor-pointer">
 										Optimistic Voting Plugin
@@ -46,8 +48,9 @@ export default function Footer() {
 									</p>
 								</Link>
 								<Link
-									href={"/"}
+									href={"https://use-aragon.daobox.app/"}
 									className="max-w-fit"
+									target="_blank"
 								>
 									<p className="text-lg text-trans-ash hover:cursor-pointer">
 										Aragon React Hooks
@@ -57,19 +60,12 @@ export default function Footer() {
 							<div className="flex flex-col space-y-4">
 								<h6 className="text-lg text-white">Resources</h6>
 								<Link
-									href={"/"}
+									href={"https://wiki.daobox.app/daobox/"}
 									className="max-w-fit"
+									target="_blank"
 								>
 									<p className="text-lg text-trans-ash hover:cursor-pointer">
 										Documentation
-									</p>
-								</Link>
-								<Link
-									href={"/"}
-									className="max-w-fit"
-								>
-									<p className="text-lg text-trans-ash hover:cursor-pointer">
-										Contact
 									</p>
 								</Link>
 								<Link
