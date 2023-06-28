@@ -2,8 +2,9 @@ import Image from "next/image"
 import { Panchang } from "../utils/fonts";
 
 export default function Experience() {
-    return (
-			<div className="flex flex-col items-center justify-center w-full space-y-4 leading-6">
+	return (
+		<div className="flex flex-col items-center justify-center w-full space-y-4 leading-6">
+			<div className="flex flex-col items-center justify-center w-full space-y-4 bg-[url('/experience-mesh.png')] bg-cover bg-no-repeat bg-center">
 				<p
 					className="text-transparent bg-gradient-to-br from-[#02AB76] 
             to-[#1457ED] w-fit bg-clip-text text-center lg:text-xl"
@@ -30,17 +31,18 @@ export default function Experience() {
 					aiming to enhance transparency and accountability, we have you
 					covered.
 				</p>
-				<Image
-					src={"/journey.png"}
-					width={1000}
-					height={500}
-					alt="preview"
-				/>
-				<p className="text-lg text-center text-white">
-					Our objective is to ensure that DAOs are within the reach of all,
-					fostering a governance framework that is transparent and inclusive for
-					individuals and organizations alike.
-				</p>
 			</div>
-		);
+			<Image
+				src={"/journey.png"}
+				width={1000}
+				height={500}
+				alt="preview"
+			/>
+			<p className="text-lg text-center text-white">
+				Our objective is to ensure that DAOs are within the reach of all,
+				fostering a governance framework that is transparent and inclusive for
+				individuals and organizations alike.
+			</p>
+		</div>
+	);
 }
