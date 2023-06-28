@@ -20,19 +20,18 @@ export default function Navbar() {
                             <p className="font-bold leading-normal text-white">Projects</p>
                             <ChevronDownIcon className="w-6 h-6 text-white duration-200 transform group-hover:-rotate-180" />
                         </div>
-                        <ul className="dropdown-content dropdown-left z-[1] menu p-2 shadow-lg bg-[#1017251A] bg-opacity-10 
-                        backdrop-blur-[43px] rounded-box w-60">
+                        <ul className="dropdown-content dropdown-left z-[1] menu p-2 shadow-lg bg-gray rounded-box w-60">
                             <li>
-                                <Link href={"/"} className="text-white active:bg-[#1017251A]/30">Lens Voting Plugin</Link>
+                                <Link href={"/"} className="text-white active:bg-trans-gray-2/10">Lens Voting Plugin</Link>
                             </li>
                             <li className="text-white">
-                                <Link href={"/"} className="text-white active:bg-[#1017251A]/30">Optimistic Voting Plugin</Link>
+                                <Link href={"/"} className="text-white active:bg-trans-gray-2/10">Optimistic Voting Plugin</Link>
                             </li>
                             <li className="text-white">
-                                <Link href={"/"} className="text-white active:bg-[#1017251A]/30">Liquid Protocol</Link>
+                                <Link href={"/"} className="text-white active:bg-trans-gray-2/10">Liquid Protocol</Link>
                             </li>
                             <li className="text-white">
-                                <Link href={"/"} className="text-white active:bg-[#1017251A]/30">Use Aragon React Hooks</Link>
+                                <Link href={"/"} className="text-white active:bg-trans-gray-2/10">Use Aragon React Hooks</Link>
                             </li>
                         </ul>
                     </div>
@@ -41,19 +40,18 @@ export default function Navbar() {
                             <p className="font-bold leading-normal text-white">Info</p>
                             <ChevronDownIcon className="w-6 h-6 text-white duration-200 transform group-hover:-rotate-180" />
                         </div>
-                        <ul className="dropdown-content dropdown-left z-[1] menu p-2 shadow-lg 
-                        bg-[#1017251A] bg-opacity-10 backdrop-blur-[43px] rounded-box w-60">
+                        <ul className="dropdown-content dropdown-left z-[1] menu p-2 shadow-lg bg-gray rounded-box w-60">
                             <li>
-                                <Link href={"/"} className="text-white active:bg-[#1017251A]/30">Lens Voting Plugin</Link>
+                                <Link href={"/"} className="text-white active:bg-trans-gray-2/10">Lens Voting Plugin</Link>
                             </li>
                             <li className="text-white">
-                                <Link href={"/"} className="text-white active:bg-[#1017251A]/30">Optimistic Voting Plugin</Link>
+                                <Link href={"/"} className="text-white active:bg-trans-gray-2/10">Optimistic Voting Plugin</Link>
                             </li>
                             <li className="text-white">
-                                <Link href={"/"} className="text-white active:bg-[#1017251A]/30">Liquid Protocol</Link>
+                                <Link href={"/"} className="text-white active:bg-trans-gray-2/10">Liquid Protocol</Link>
                             </li>
                             <li className="text-white">
-                                <Link href={"/"} className="text-white active:bg-[#1017251A]/30">Use Aragon React Hooks</Link>
+                                <Link href={"/"} className="text-white active:bg-trans-gray-2/10">Use Aragon React Hooks</Link>
                             </li>
                         </ul>
                     </div>
