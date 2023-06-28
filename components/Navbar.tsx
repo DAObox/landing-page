@@ -36,7 +36,7 @@ export default function Navbar() {
                             </li>
                         </ul>
                     </div>
-                    <div className="dropdown dropdown-hover group bg-gray">
+                    <div className="dropdown dropdown-hover group">
                         <div className="flex items-center space-x-1 hover:cursor-pointer">
                             <p className="font-bold leading-normal text-white">Info</p>
                             <ChevronDownIcon className="w-6 h-6 text-white duration-200 transform group-hover:-rotate-180" />
