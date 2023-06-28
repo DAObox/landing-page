@@ -1,5 +1,6 @@
 import ChevronRightIcon from "@heroicons/react/outline/ChevronRightIcon";
 import { Panchang } from "../utils/fonts";
+import Link from "next/link";
 
 export default function Hero() {
     return (
@@ -12,7 +13,10 @@ export default function Hero() {
                     sm:leading-[70px] flex flex-col justify-center items-center"
 							>
 								<h1 className="flex space-x-4">
-									<span className={Panchang.className}>Building tools <span className="hidde lg:block xl:hidden">to make</span></span>
+									<span className={Panchang.className}>
+										Building tools{" "}
+										<span className="hidde lg:block xl:hidden">to make</span>
+									</span>
 									<span className="hidden xl:block">to make</span>
 								</h1>
 								<h1 className="lg:hidden">to make DAOs</h1>
@@ -35,26 +39,34 @@ export default function Hero() {
 						</div>
 					</div>
 					<div className="flex flex-col items-center justify-center w-full space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
-						<button className="flex justify-center w-full max-w-[243px] bg-white rounded-lg">
-							<div className="py-2.5 font-semibold flex items-center space-x-0.5">
-								<p className="text-black">Join us</p>
-								<span>
-									<ChevronRightIcon className="w-6 h-6 text-black" />
-								</span>
-							</div>
-						</button>
+						<Link
+							href="https://discord.gg/CNjdqGwYGy"
+							target="_blank"
+						>
+							<button className="flex justify-center w-full px-12 bg-white rounded-lg">
+								<div className="py-2.5 font-semibold flex items-center space-x-0.5">
+									<p className="text-black">Join us</p>
+									<span>
+										<ChevronRightIcon className="w-6 h-6 text-black" />
+									</span>
+								</div>
+							</button>
+						</Link>
 						<button
-							className="w-full max-w-[243px] bg-transparent rounded-lg p-[0.5px]
+							className="w-full max-w-[180px] bg-transparent rounded-lg p-[0.5px]
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A]"
 						>
-							<div
-								className="py-2.5 font-semibold flex items-center space-x-0.5 bg-gray w-full rounded-lg justify-center"
+							<Link
+								href="https://github.com/DAObox"
+								target="_blank"
 							>
-								<p className="text-light-gray">Build with us</p>
-								<span>
-									<ChevronRightIcon className="w-6 h-6 text-light-gray" />
-								</span>
-							</div>
+								<div className="py-2.5 font-semibold flex items-center space-x-0.5 bg-gray w-full rounded-lg justify-center">
+									<p className="text-light-gray">Build with us</p>
+									<span>
+										<ChevronRightIcon className="w-6 h-6 text-light-gray" />
+									</span>
+								</div>
+							</Link>
 						</button>
 					</div>
 				</div>
