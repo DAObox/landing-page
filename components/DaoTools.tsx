@@ -27,8 +27,8 @@ export default function DaoTools() {
                             via-white to-[#1017251A] h-full"
 					>
 						<div className="h-full">
-							<div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
-								<h5 className="text-2xl font-semibold leading-8 text-trans-gray-2">
+							<div className="z-0 w-full h-full p-6 rounded-lg bg-trans-gray-2">
+								<h5 className="text-2xl font-semibold leading-8 text-black">
 									Aragon Plugin
 								</h5>
 								<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-no-repeat bg-cover bg-center pt-10 space-y-2">
@@ -165,7 +165,7 @@ export default function DaoTools() {
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] h-full"
 							>
 								<div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
-									<h5 className="text-2xl font-semibold leading-8 text-trans-gray-2">
+									<h5 className="text-2xl font-semibold leading-8 text-black">
 										Aragon Plugin
 									</h5>
 									<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
@@ -200,7 +200,7 @@ export default function DaoTools() {
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] lg:hidden"
 				>
 					<div className="w-full p-6 rounded-lg h-fit bg-trans-gray-2">
-						<h5 className="text-2xl font-semibold leading-8 text-trans-gray-2">
+						<h5 className="text-2xl font-semibold leading-8 text-black">
 							Aragon Plugin
 						</h5>
 						<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
