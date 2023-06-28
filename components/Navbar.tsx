@@ -14,11 +14,9 @@ export default function Navbar() {
                     <Image src={"/favicon.ico"} width={30} height={30} alt="icon" />
                     <h1 className="text-2xl font-semibold text-white">DAOBox</h1>
                 </div>
-                <button className="md:hidden"
-                    onClick={() => console.log("hi")}>
+                <button className="md:hidden" onClick={() => setClose(!close)}>
                     {
-                        close ? <MenuAlt3Icon className="w-6 h-6 text-white" onClick={() => setClose(!close)} /> :
-                            <XIcon className="w-6 h-6 text-white" onClick={() => setClose(!close)} />
+                        close ? <MenuAlt3Icon className="w-6 h-6 text-white" /> : <XIcon className="w-6 h-6 text-white" />
                     }
                 </button>
                 <div className="items-center hidden space-x-6 md:flex">
@@ -68,7 +66,7 @@ export default function Navbar() {
                     </button>
                 </div>
             </div>
-            <div className="w-full min-h-96 h-fit md:hidden" hidden={close}>
+            <div className={`w-full min-h-[200px] flex flex-col items-center justify-center h-fit ${close ? "hidden" : "block"} md:hidden`}>
                 <div className="flex flex-col items-center justify-center w-full h-full">
                     <div className="flex flex-col items-center py-4 space-y-4">
                         <div className="flex flex-col items-center group">
