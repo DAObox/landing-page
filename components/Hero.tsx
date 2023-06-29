@@ -15,7 +15,7 @@ export default function Hero() {
 								<h1 className="flex space-x-4">
 									<span className={Panchang.className}>
 										Building tools{" "}
-										<span className="hidde lg:block xl:hidden">to make</span>
+										<span className="hidden lg:block xl:hidden">to make</span>
 									</span>
 									<span className="hidden xl:block">to make</span>
 								</h1>
