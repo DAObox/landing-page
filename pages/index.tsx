@@ -13,16 +13,10 @@ const Home: NextPage = () => {
     <div className="relative flex justify-center w-full h-full min-h-screen bg-gray">
       <Head>
         <title>DAOBox - Make DAOs Accessible</title>
-        <link
-          rel="icon"
-          href="/favicon.ico"
-        />
         <meta
           name="description"
           content="DAOBox is a developer and designer collective dedicated to building DAO toolings."
         />
-
-        {/* Open Graph / Facebook */}
         <meta
           property="og:url"
           content="https://daobox.app"
@@ -43,8 +37,6 @@ const Home: NextPage = () => {
           property="og:image"
           content="/banner.png"
         />
-
-        {/* Open Graph / Twitter */}
         <meta
           name="twitter:card"
           content="summary_large_image"
@@ -73,6 +65,11 @@ const Home: NextPage = () => {
         <meta
           name="twitter:site"
           content="@daobox_app"
+        />
+
+        <link
+          rel="icon"
+          href="/favicon.ico"
         />
       </Head>
       <main className="flex flex-col items-center justify-center w-full h-full">
