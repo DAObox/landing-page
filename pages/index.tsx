@@ -1,50 +1,93 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Hero } from "../components/Hero";
-import { Projects } from "../components/Projects";
-import { Hooks } from "../components/Hooks";
-import { Sponsors } from "../components/Sponsors";
-import { Footer } from "../components/Footer";
-import { Vision } from "../components/Vision";
-import Newsletter from "../components/Newsletter";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Preview from "../components/Preview";
+import DaoTools from "../components/DaoTools";
+import Experience from "../components/Experience";
+import Subscribe from "../components/Subscribe";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
-	return (
-		<div className="bg-gradient-to-r from-[#1E203C] to-[#11121B] w-full">
-			<Head>
-				<title>DAOBox</title>
-				<link
-					rel="icon"
-					href="/favicon.ico"
-				/>
-				<meta
-					name="description"
-					content="DAOBox is a decentralized organization that empowers communities through building tools to enable wider access to blockchain governance technology."
-				/>
-				<meta
-					name="twitter:site"
-					content="@daobox_app"
-				/>
-			</Head>
-			<main className="w-full relative min-h-screen h-full">
-				<div className="w-full absolute top-0 left-0">
-					<div
-						className="bg-[url('/images/backgrounds/blue-shade.png')] bg-no-repeat bg-center bg-cover w-[calc(100%)] sm:w-[calc(75%)] 
-						md:w-[calc(50%)] h-full min-h-[450px] lg:min-h-[600px] rounded-br-full"
-					/>
-				</div>
-				<div className="space-y-10 sm:space-y-14 lg:space-y-20">
-					<Hero />
-					<Projects />
-					<Hooks />
-					<Sponsors />
-					<Vision />
-					<Newsletter />
-					<Footer />
-				</div>
-			</main>
-		</div>
-	);
+  return (
+    <div className="relative flex justify-center w-full h-full min-h-screen bg-gray">
+      <Head>
+        <title>DAOBox - Make DAOs Accessible</title>
+        <link
+          rel="icon"
+          href="/favicon.ico"
+        />
+        <meta
+          name="description"
+          content="DAOBox is a developer and designer collective dedicated to building DAO toolings."
+        />
+
+        {/* Open Graph / Facebook */}
+        <meta
+          property="og:url"
+          content="https://daobox.app"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
+        <meta
+          property="og:title"
+          content="DAOBox - Make DAOs Accessible"
+        />
+        <meta
+          property="og:description"
+          content="DAOBox is a developer and designer collective dedicated to building DAO toolings."
+        />
+        <meta
+          property="og:image"
+          content="/banner.png"
+        />
+
+        {/* Open Graph / Twitter */}
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          property="twitter:domain"
+          content="daobox.app"
+        />
+        <meta
+          property="twitter:url"
+          content="https://daobox.app"
+        />
+        <meta
+          name="twitter:title"
+          content="DAOBox - Make DAOs Accessible"
+        />
+        <meta
+          name="twitter:description"
+          content="DAOBox is a developer and designer collective dedicated to building DAO toolings."
+        />
+        <meta
+          name="twitter:image"
+          content="/banner.png"
+        />
+
+        <meta
+          name="twitter:site"
+          content="@daobox_app"
+        />
+      </Head>
+      <main className="flex flex-col items-center justify-center w-full h-full">
+        <Navbar />
+        <div className="flex flex-col items-center w-full h-full px-5 pt-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-6xl">
+          <Hero />
+          <Preview />
+          <DaoTools />
+          <Experience />
+          <Subscribe />
+          <Footer />
+        </div>
+      </main>
+    </div>
+  );
 };
 
 export default Home;

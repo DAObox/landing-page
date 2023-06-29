@@ -1,81 +1,73 @@
-import Image from "next/image";
-import { Navbar } from "./Navbar";
-import { motion } from "framer-motion"
-import daoboxLogoBlacked from "../public/assets/logo-blacked.png"
+import ChevronRightIcon from "@heroicons/react/outline/ChevronRightIcon";
+import { Panchang } from "../utils/fonts";
+import Link from "next/link";
 
-export function Hero() {
+export default function Hero() {
     return (
-			<div>
-				<div className="w-full h-full flex justify-center">
-					<div className="max-w-xs px-2.5 sm:px-0 lg:px-5 xl:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-6xl w-full">
-						<Navbar />
-						<div className="w-full flex flex-col justify-center items-center space-y-5 md:space-y-10 mt-32">
-							<div>
-								<Image
-									src={daoboxLogoBlacked}
-									alt="logo"
-									width={240}
-									height={240}
-								/>
-							</div>
-							<div>
-								<p className="text-green text-2xl">
-									We empower <span className="font-extrabold">builders</span>
-								</p>
-							</div>
-							<div>
-								<div className="text-2xl sm:text-4xl md:text-5xl font-medium max-w-2xl text-center text-white">
-                                    <div className="space-y-5">
-                                        <motion.h1
-                                            initial={{ opacity: 0.25, y: -10 }}
-                                            animate={{ y: 1, opacity: 1 }}
-                                            whileInView={{ opacity: 1 }}
-                                            transition={{ duration: 1.5 }}
-                                            viewport={{ once: false }}
-                                            className="hidden sm:block"
-                                        >
-                                            On a mission to make DAOs
-                                        </motion.h1>
-                                        <motion.h1
-                                            initial={{ opacity: 0.25, y: 1 }}
-                                            animate={{ y: -10, opacity: 1 }}
-                                            whileInView={{ opacity: 1 }}
-                                            transition={{ duration: 2.25 }}
-                                            viewport={{ once: false }}
-                                            className="hidden sm:block"
-                                        >
-                                            accessible to everyone
-                                        </motion.h1>                                        
-                                    </div>
-                                    <div>
-                                        <motion.h1
-                                            initial={{ opacity: 0.25, y: -10 }}
-                                            animate={{ y: 1, opacity: 1 }}
-                                            whileInView={{ opacity: 1 }}
-                                            transition={{ duration: 1.5 }}
-                                            viewport={{ once: false }}
-                                            className="block sm:hidden"
-                                        >On a mission to make</motion.h1>
-                                        <motion.h1
-                                            initial={{ opacity: 0.25, y: -10 }}
-                                            animate={{ y: 1, opacity: 1 }}
-                                            whileInView={{ opacity: 1 }}
-                                            transition={{ duration: 1.5 }}
-                                            viewport={{ once: false }}
-                                            className="block sm:hidden"
-                                        >DAOs accessible to</motion.h1>
-                                        <motion.h1
-                                            initial={{ opacity: 0.25, y: -10 }}
-                                            animate={{ y: 1, opacity: 1 }}
-                                            whileInView={{ opacity: 1 }}
-                                            transition={{ duration: 1.5 }}
-                                            viewport={{ once: false }}
-                                            className="block sm:hidden"
-                                        >everyone</motion.h1>                                        
-                                    </div>
-								</div>
+			<div className="flex flex-col w-full h-full">
+				<div className="mt-[120px] sm:mt-[100px] space-y-6 flex flex-col items-center">
+					<div className="space-y-4">
+						<div className={Panchang.className}>
+							<div
+								className="text-center text-[32px] font-semibold leading-10 text-white sm:text-[64px] 
+                    sm:leading-[70px] flex flex-col justify-center items-center"
+							>
+								<h1 className="flex space-x-4">
+									<span className={Panchang.className}>
+										Building tools{" "}
+										<span className="hidde lg:block xl:hidden">to make</span>
+									</span>
+									<span className="hidden xl:block">to make</span>
+								</h1>
+								<h1 className="lg:hidden">to make DAOs</h1>
+								<h1 className="flex space-x-4">
+									<span className="hidden lg:block">DAOs</span>
+									<span>accessible</span>
+								</h1>
 							</div>
 						</div>
+						<div className="flex font-normal leading-normal text-center text-white lg:text-2xl sm:flex-col">
+							<span>
+								Empowering Communities and Revolutionizing{" "}
+								<span className="sm:hidden">
+									Collaboration in the Digital Age
+								</span>
+							</span>
+							<span className="hidden sm:block">
+								Collaboration in the Digital Age
+							</span>
+						</div>
+					</div>
+					<div className="flex flex-col items-center justify-center w-full space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
+						<Link
+							href="https://discord.gg/CNjdqGwYGy"
+							target="_blank"
+						>
+							<button className="flex justify-center w-full px-12 bg-white rounded-lg">
+								<div className="py-2.5 font-semibold flex items-center space-x-0.5">
+									<p className="text-black">Join us</p>
+									<span>
+										<ChevronRightIcon className="w-6 h-6 text-black" />
+									</span>
+								</div>
+							</button>
+						</Link>
+						<button
+							className="w-full max-w-[180px] bg-transparent rounded-lg p-[0.5px]
+                bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A]"
+						>
+							<Link
+								href="https://github.com/DAObox"
+								target="_blank"
+							>
+								<div className="py-2.5 font-semibold flex items-center space-x-0.5 bg-gray w-full rounded-lg justify-center">
+									<p className="text-light-gray">Build with us</p>
+									<span>
+										<ChevronRightIcon className="w-6 h-6 text-light-gray" />
+									</span>
+								</div>
+							</Link>
+						</button>
 					</div>
 				</div>
 			</div>
