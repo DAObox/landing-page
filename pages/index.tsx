@@ -12,15 +12,64 @@ const Home: NextPage = () => {
   return (
     <div className="relative flex justify-center w-full h-full min-h-screen bg-gray">
       <Head>
-        <title>DAOBox</title>
+        <title>DAOBox - Make DAOs Accessible</title>
         <link
           rel="icon"
           href="/favicon.ico"
         />
         <meta
           name="description"
-          content="DAOBox is a decentralized organization that empowers communities through building tools to enable wider access to blockchain governance technology."
+          content="DAOBox is a developer and designer collective dedicated to building DAO toolings."
         />
+
+        {/* Open Graph / Facebook */}
+        <meta
+          property="og:url"
+          content="https://daobox.app"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
+        <meta
+          property="og:title"
+          content="DAOBox - Make DAOs Accessible"
+        />
+        <meta
+          property="og:description"
+          content="DAOBox is a developer and designer collective dedicated to building DAO toolings."
+        />
+        <meta
+          property="og:image"
+          content="/banner.png"
+        />
+
+        {/* Open Graph / Twitter */}
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          property="twitter:domain"
+          content="daobox.app"
+        />
+        <meta
+          property="twitter:url"
+          content="https://daobox.app"
+        />
+        <meta
+          name="twitter:title"
+          content="DAOBox - Make DAOs Accessible"
+        />
+        <meta
+          name="twitter:description"
+          content="DAOBox is a developer and designer collective dedicated to building DAO toolings."
+        />
+        <meta
+          name="twitter:image"
+          content="/banner.png"
+        />
+
         <meta
           name="twitter:site"
           content="@daobox_app"
