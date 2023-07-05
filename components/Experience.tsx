@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Panchang } from "../utils/fonts";
 import Journey from "../public/daobox-journey.png"
+import MobileJourney from "../public/mobile-daobox-journey.png";
 
 export default function Experience() {
 	return (
@@ -35,9 +36,17 @@ export default function Experience() {
 			</div>
 			<Image
 				src={Journey}
-				width={1000}
-				height={500}
+				width={1101.3}
+				height={604}
 				alt="preview"
+				className="hidden sm:block"
+			/>
+			<Image
+				src={MobileJourney}
+				width={709}
+				height={389}
+				alt="preview"
+				className="block sm:hidden"
 			/>
 			<p className="text-lg text-center text-white">
 				Our objective is to ensure that DAOs are within the reach of all,

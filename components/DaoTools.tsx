@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Spotlight, { SpotlightCard } from "./Spotlight";
 import { Panchang } from "../utils/fonts";
+import KlerosLogo from "../public/kleros-logo.png";
+import DAOBoxTools from "../public/daobox-tool-icon.png";
+import LensIcon from "../public/lens-icon.png";
 
 export default function DaoTools() {
 	return (
@@ -37,16 +40,16 @@ export default function DaoTools() {
 										Aragon Plugin
 									</h5> */}
 									<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-no-repeat bg-cover bg-center pt-10 space-y-2">
-										<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-											<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
+										{/* <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white"> */}
+											{/* <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative"> */}
 												<Image
-													src={"/lens.png"}
-													width={35}
-													height={35}
+													src={LensIcon}
+													width={55}
+													height={55}
 													alt="icon"
 												/>
-											</div>
-										</div>
+											{/* </div> */}
+										{/* </div> */}
 										<h5 className="text-2xl font-semibold leading-8 text-white">
 											Lens Voting Plugin
 										</h5>
@@ -75,16 +78,16 @@ export default function DaoTools() {
 									</h5>
 								</div>
 								<div className="space-y-2">
-									<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-										<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
+									{/* <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white"> */}
+										{/* <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative"> */}
 											<Image
-												src={"/dark-logo.png"}
-												width={35}
-												height={35}
+												src={DAOBoxTools}
+												width={55}
+												height={55}
 												alt="icon"
 											/>
-										</div>
-									</div>
+										{/* </div> */}
+									{/* </div> */}
 									<h5 className="text-2xl font-semibold leading-8 text-white">
 										Liquid Protocol
 									</h5>
@@ -110,16 +113,16 @@ export default function DaoTools() {
 									</h5>
 								</div>
 								<div className="space-y-2">
-									<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-										<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
+									{/* <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white"> */}
+										{/* <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative"> */}
 											<Image
-												src={"/dark-logo.png"}
-												width={35}
-												height={35}
+												src={DAOBoxTools}
+												width={55}
+												height={55}
 												alt="icon"
 											/>
-										</div>
-									</div>
+										{/* </div> */}
+									{/* </div> */}
 									<h5 className="text-2xl font-semibold leading-8 text-white">
 										Liquid Protocol
 									</h5>
@@ -146,16 +149,16 @@ export default function DaoTools() {
 										</h5>
 									</div>
 									<div className="space-y-2">
-										<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-											<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
+										{/* <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white"> */}
+											{/* <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative"> */}
 												<Image
-													src={"/dark-logo.png"}
-													width={35}
-													height={35}
+													src={DAOBoxTools}
+													width={55}
+													height={55}
 													alt="icon"
 												/>
-											</div>
-										</div>
+											{/* </div> */}
+										{/* </div> */}
 										<h5 className="text-2xl font-semibold leading-8 text-white">
 											useAragon React Hooks
 										</h5>
@@ -184,16 +187,16 @@ export default function DaoTools() {
 											Aragon Plugin
 										</h5> */}
 										<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
-											<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-												<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
+											{/* <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white"> */}
+												{/* <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative"> */}
 													<Image
-														src={"/optimistic.png"}
-														width={35}
-														height={35}
+														src={KlerosLogo}
+														width={55}
+														height={55}
 														alt="icon"
 													/>
-												</div>
-											</div>
+												{/* </div> */}
+											{/* </div> */}
 											<h5 className="text-2xl font-semibold leading-8 text-white">
 												Optimistic Voting Plugin
 											</h5>
@@ -224,16 +227,16 @@ export default function DaoTools() {
 								Aragon Plugin
 							</h5> */}
 							<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
-								<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
-									<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
+								{/* <div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white"> */}
+									{/* <div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative"> */}
 										<Image
-											src={"/optimistic.png"}
-											width={35}
-											height={35}
+											src={KlerosLogo}
+											width={50}
+											height={50}
 											alt="icon"
 										/>
-									</div>
-								</div>
+									{/* </div> */}
+								{/* </div> */}
 								<h5 className="text-2xl font-semibold leading-8 text-white">
 									Optimistic Voting Plugin
 								</h5>
