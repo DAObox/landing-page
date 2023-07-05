@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Panchang } from "../utils/fonts";
+import Journey from "../public/daobox-journey.png"
 
 export default function Experience() {
 	return (
@@ -12,7 +13,7 @@ export default function Experience() {
 					Revolutionizing the way we govern together.
 				</p>
 				<div className={Panchang.className}>
-					<h1 className="flex flex-col text-xl text-center text-white sm:text-3xl">
+					<h1 className="flex flex-col text-xl font-semibold text-center text-white sm:text-3xl">
 						<span>Experience the power</span>
 						<span className="sm:flex sm:space-x-2.5">
 							<span>of decentralized</span>{" "}
@@ -33,7 +34,7 @@ export default function Experience() {
 				</p>
 			</div>
 			<Image
-				src={"/journey.png"}
+				src={Journey}
 				width={1000}
 				height={500}
 				alt="preview"

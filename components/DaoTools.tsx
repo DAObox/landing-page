@@ -8,7 +8,7 @@ export default function DaoTools() {
 		<div className="pt-20 sm:pt-0 space-y-14">
 			<div className="space-y-2">
 				<div className={Panchang.className}>
-					<h1 className="text-4xl font-medium text-center text-transparent md:text-6xl bg-clip-text bg-gradient-to-br from-trans-gray via-white to-trans-gray">
+					<h1 className="text-4xl font-medium text-center text-transparent md:text-6xl bg-clip-text text-white">
 						DAO Tools
 					</h1>
 				</div>
@@ -33,9 +33,9 @@ export default function DaoTools() {
 						>
 							<div className="h-full">
 								<div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
-									<h5 className="text-2xl font-semibold leading-8 text-black">
+									{/* <h5 className="text-2xl font-semibold leading-8 text-black">
 										Aragon Plugin
-									</h5>
+									</h5> */}
 									<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-no-repeat bg-cover bg-center pt-10 space-y-2">
 										<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
 											<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
@@ -180,9 +180,9 @@ export default function DaoTools() {
                 bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] h-full"
 								>
 									<div className="w-full h-full p-6 rounded-lg bg-trans-gray-2">
-										<h5 className="text-2xl font-semibold leading-8 text-black">
+										{/* <h5 className="text-2xl font-semibold leading-8 text-black">
 											Aragon Plugin
-										</h5>
+										</h5> */}
 										<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
 											<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
 												<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
@@ -220,9 +220,9 @@ export default function DaoTools() {
 						target="_blank"
 					>
 						<div className="w-full p-6 rounded-lg h-fit bg-trans-gray-2">
-							<h5 className="text-2xl font-semibold leading-8 text-black">
+							{/* <h5 className="text-2xl font-semibold leading-8 text-black">
 								Aragon Plugin
-							</h5>
+							</h5> */}
 							<div className="w-full h-full bg-[url('/thin-grid.png')] md:bg-[url('/large-grid.png)] bg-cover bg-no-repeat bg-center pt-24 space-y-2">
 								<div className="p-[0.25px] rounded-full max-w-fit max-h-fit h-[50px] w-full backdrop-blur-md bg-gradient-to-bl rotate-[50deg] from-white to-white">
 									<div className="w-[50px] h-[50px] rounded-full bg-[#22262B] p-2.5 -rotate-[50deg] relative">
