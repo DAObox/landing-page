@@ -75,7 +75,7 @@ export default function Subscribe() {
 							Access DAOs through innovative tools
 						</h1>
 					</div>
-					<p className="text-2xl text-trans-ash">Subscribe to our waitlist.</p>
+					<p className="text-lg text-trans-ash">Subscribe to our waitlist.</p>
 					<div className="bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] p-[0.5px] bg-[#101318] rounded-2xl max-w-sm">
 						<form
 							className="flex bg-[#101318] p-2.5 space-x-1.5 rounded-2xl"
