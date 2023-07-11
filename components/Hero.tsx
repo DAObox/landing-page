@@ -20,7 +20,7 @@ export default function Hero() {
 									<span className="hidden xl:block">to make</span>
 								</h1>
 								<h1 className="lg:hidden">to make DAOs</h1>
-								<h1 className="flex space-x-4">
+								<h1 className="flex space-x-4 md:mt-3">
 									<span className="hidden lg:block">DAOs</span>
 									<span>accessible</span>
 								</h1>
