@@ -1,21 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
+import DAOBoxFooterLogo from "../public/nav-logo.png"
 
 export default function Footer() {
     return (
-			<div className="flex flex-col items-center w-screen h-full bg-dark-gray">
+			<div className="flex flex-col items-center w-screen h-full bg-[#0D1118]">
 				<div className="w-full h-[0.5px] bg-gradient-to-r from-[#1017251A] via-white to-[#1017251A] absolute inset-x-0" />
 				<div className="w-full h-full px-5 pt-8 space-y-6 md:px-14 xl:max-w-6xl sm:space-y-0">
 					<div className="flex flex-col w-full space-y-6 sm:space-y-0 sm:flex-row sm:justify-between">
 						<div>
 							<div className="flex items-center space-x-1.5">
-								<Image
-									src={"/favicon.ico"}
-									width={30}
-									height={30}
-									alt="icon"
-								/>
-								<h1 className="text-2xl font-semibold text-white">DAOBox</h1>
+								<Link
+									href="/">
+									<Image
+										src={DAOBoxFooterLogo}
+										width={143}
+										height={40}
+										alt="DAOBox logo"
+									/>
+								</Link>
 							</div>
 						</div>
 						<div className="flex flex-col space-y-6 sm:space-y-0 sm:flex-row sm:space-x-20">

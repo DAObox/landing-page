@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ChevronDownIcon, ChevronRightIcon, MenuAlt3Icon, XIcon } from "@heroicons/react/outline"
 import Link from "next/link";
 import { useState } from "react";
+import DAOBoxLogo from "../public/nav-logo.png"
 
 export default function Navbar() {
     const [close, setClose] = useState(true)
@@ -10,13 +11,14 @@ export default function Navbar() {
 			<div className="bg-opacity-10 backdrop-blur-[43px] w-full flex flex-col items-center justify-center fixed md:sticky top-0 z-10">
 				<div className="z-20 flex items-center justify-between w-full px-5 py-6 bg-transparent md:px-14 xl:max-w-6xl">
 					<div className="flex items-center space-x-1.5">
-						<Image
-							src={"/favicon.ico"}
-							width={30}
-							height={30}
-							alt="icon"
-						/>
-						<h1 className="text-2xl font-semibold text-white">DAOBox</h1>
+						<Link href="/">
+							<Image
+								src={DAOBoxLogo}
+								height={40}
+								width={143}
+								alt="DAOBox logo"
+							/>
+						</Link>
 					</div>
 					<button
 						className="md:hidden"
@@ -78,7 +80,7 @@ export default function Navbar() {
 							</ul>
 						</div>
 						<Link
-							href="https://discord.gg/CNjdqGwYGy"
+							href="https://github.com/DAObox"
 							target="_blank"
 						>
 							<button className="px-12 py-2.5 bg-white rounded-lg font-semibold flex items-center space-x-0.5">
@@ -147,7 +149,7 @@ export default function Navbar() {
 									<li className="text-white">
 										<Link
 											href={"https://use-aragon.daobox.app/"}
-                                            target="_blank"
+											target="_blank"
 											className="text-white active:bg-trans-gray-2/10"
 										>
 											Use Aragon React Hooks
