@@ -71,11 +71,11 @@ export default function Subscribe() {
 				</div>
 				<div className="flex flex-col items-center w-full -mt-32 space-y-4 text-center lg:max-w-3xl">
 					<div className={Panchang.className}>
-						<h1 className="text-3xl font-medium text-center text-transparent text-white sm:text-5xl bg-clip-text bg-gradient-to-br from-trans-gray">
+						<h1 className="text-3xl font-medium text-center text-white sm:text-5xl">
 							Access DAOs through innovative tools
 						</h1>
 					</div>
-					<p className="text-2xl text-trans-ash">Subscribe to our waitlist.</p>
+					<p className="text-lg text-trans-ash">Subscribe to our waitlist.</p>
 					<div className="bg-gradient-to-br from-[#1017251A] via-white to-[#1017251A] p-[0.5px] bg-[#101318] rounded-2xl max-w-sm">
 						<form
 							className="flex bg-[#101318] p-2.5 space-x-1.5 rounded-2xl"
