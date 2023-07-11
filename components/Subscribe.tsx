@@ -71,7 +71,7 @@ export default function Subscribe() {
 				</div>
 				<div className="flex flex-col items-center w-full -mt-32 space-y-4 text-center lg:max-w-3xl">
 					<div className={Panchang.className}>
-						<h1 className="text-3xl font-medium text-center text-transparent text-white sm:text-5xl bg-clip-text bg-gradient-to-br from-trans-gray">
+						<h1 className="text-3xl font-medium text-center text-white sm:text-5xl">
 							Access DAOs through innovative tools
 						</h1>
 					</div>
