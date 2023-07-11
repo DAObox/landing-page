@@ -39,7 +39,7 @@ export default function DaoTools() {
 										Aragon Plugin
 									</h5> */}
 									<div
-										className="w-full h-full bg-[url('/close-grid.png')] md:bg-[url('/wide-grib.png)] bg-no-repeat bg-cover bg-right-top pt-10 space-y-2"
+										className="w-full h-full bg-[url('/close-grid.png')] md:bg-[url('/wide-grid.png)] bg-no-repeat bg-cover bg-right-top pt-10 space-y-2"
 										style={{
 											backgroundSize: "50%",
 										}}
