@@ -8,7 +8,7 @@ export default function Navbar() {
     const [close, setClose] = useState(true)
     const [projectsClose, setProjectsClose] = useState(true)
     return (
-			<div className="bg-opacity-10 backdrop-blur-[43px] w-full flex flex-col items-center justify-center fixed md:sticky top-0 z-10">
+			<div className="bg-opacity-10 backdrop-blur-[43px] w-screen flex flex-col items-center justify-center fixed md:sticky top-0 z-10">
 				<div className="z-20 flex items-center justify-between w-full px-5 py-6 bg-transparent md:px-14 xl:max-w-6xl">
 					<div className="flex items-center space-x-1.5">
 						<Link href="/">

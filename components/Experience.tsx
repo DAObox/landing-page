@@ -5,7 +5,7 @@ import MobileJourney from "../public/mobile-daobox-journey.png";
 
 export default function Experience() {
 	return (
-		<div className="flex flex-col items-center justify-center w-full space-y-4 leading-6">
+		<div className="flex flex-col items-center justify-center w-full px-5 space-y-4 leading-6">
 			<div className="flex flex-col items-center justify-center w-full space-y-4 bg-[url('/experience-mesh.png')] bg-cover bg-no-repeat bg-center">
 				<p
 					className="text-transparent bg-gradient-to-br from-[#02AB76] 
