@@ -12,7 +12,7 @@ export default function Hero() {
 								className="text-center text-[32px] font-semibold leading-10 text-white sm:text-[64px] 
                     sm:leading-[70px] flex flex-col justify-center items-center"
 							>
-								<h1 className="flex space-x-4">
+								<h1 className="flex space-x-4 xl:flex-col xl:space-y-4 xl:space-x-0">
 									<span className={Panchang.className}>
 										Building tools{" "}
 										<span className="hidden lg:block xl:hidden">to make</span>
