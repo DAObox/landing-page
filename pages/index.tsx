@@ -9,7 +9,7 @@ import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
-  return (
+	return (
 		<div className="relative flex justify-center w-full h-full min-h-screen bg-gray">
 			<Head>
 				<title>DAOBox - Make DAOs Accessible</title>
@@ -73,9 +73,9 @@ const Home: NextPage = () => {
 				/>
 			</Head>
 			<main className="flex flex-col items-center justify-center w-full h-full">
-				<div className="md:bg-[url('/blur-eclipse.svg')] bg-no-repeat bg-top bg-contain">
+				<div className="md:bg-[url('/blur-eclipse.svg')] bg-no-repeat bg-top bg-contain flex flex-col items-center">
 					<Navbar />
-					<div className="flex flex-col items-center w-full h-full px-5 pt-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-6xl">
+					<div className="flex flex-col items-center w-screen h-full pt-8 space-y-20 lg:space-y-36 md:px-14 xl:max-w-7xl">
 						<Hero />
 						<Preview />
 						<DaoTools />
