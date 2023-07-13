@@ -5,7 +5,7 @@ import MobileJourney from "../public/mobile-daobox-journey.png";
 
 export default function Experience() {
 	return (
-		<div className="flex flex-col items-center justify-center w-full space-y-4 leading-6">
+		<div className="flex flex-col items-center justify-center w-full px-5 space-y-4 leading-6">
 			<div className="flex flex-col items-center justify-center w-full space-y-4 bg-[url('/experience-mesh.png')] bg-cover bg-no-repeat bg-center">
 				<p
 					className="text-transparent bg-gradient-to-br from-[#02AB76] 
@@ -16,7 +16,7 @@ export default function Experience() {
 				<div className={Panchang.className}>
 					<h1 className="flex flex-col text-xl font-semibold text-center text-white sm:text-3xl">
 						<span>Experience the power</span>
-						<span className="sm:flex sm:space-x-2.5">
+						<span>
 							<span>of decentralized</span>{" "}
 							<span className="invisible hidden sm:block sm:visible">
 								governance

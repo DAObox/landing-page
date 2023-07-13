@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-			<div className="flex flex-col w-full h-full">
+			<div className="flex flex-col w-full h-full px-5">
 				<div className="mt-[120px] sm:mt-[100px] space-y-6 flex flex-col items-center">
 					<div className="space-y-4">
 						<div className={Panchang.className}>
@@ -20,7 +20,7 @@ export default function Hero() {
 									<span className="hidden xl:block">to make</span>
 								</h1>
 								<h1 className="lg:hidden">to make DAOs</h1>
-								<h1 className="flex space-x-4">
+								<h1 className="flex space-x-4 md:mt-3">
 									<span className="hidden lg:block">DAOs</span>
 									<span>accessible</span>
 								</h1>

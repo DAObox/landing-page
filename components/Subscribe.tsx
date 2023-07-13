@@ -44,7 +44,7 @@ export default function Subscribe() {
 		}
 	};
     return (
-			<div className="flex flex-col items-center justify-center w-full h-full max-w-lg lg:max-w-4xl">
+			<div className="flex flex-col items-center justify-center w-full h-full max-w-lg px-5 lg:max-w-4xl">
 				<div className="flex justify-center lg:justify-between w-full h-[375px]">
 					<Image
 						src={"/laser.png"}
