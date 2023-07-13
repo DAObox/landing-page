@@ -5,19 +5,18 @@ import { Panchang } from "../utils/fonts";
 import KlerosLogo from "../public/kleros-logo.png";
 import DAOBoxTools from "../public/daobox-tool-icon.png";
 import LensIcon from "../public/lens-icon.png";
-import WideGrid from "../public/wide-grib.png"
 
 export default function DaoTools() {
 	return (
-		<div className="pt-20 sm:pt-0 space-y-14">
+		<div className="px-5 pt-20 sm:pt-0 space-y-14">
 			<div className="space-y-2">
 				<div className={Panchang.className}>
-					<h1 className="text-4xl font-medium text-center md:text-6xl text-white">
+					<h1 className="text-4xl font-medium text-center text-white md:text-6xl">
 						DAO Tools
 					</h1>
 				</div>
 				<div className="lg:text-xl">
-					<p className="text-center  text-ash">
+					<p className="text-center text-ash">
 						Custom architecture, U.I and plugins for <br />
 						Aragon OSx protocol.
 					</p>
@@ -57,7 +56,7 @@ export default function DaoTools() {
 										<h5 className="text-2xl font-semibold leading-8 text-white">
 											Lens Voting Plugin
 										</h5>
-										<p className="text-ash text-lg">
+										<p className="text-lg text-ash">
 											Lens Voting Plugin empowers Lens Follow NFT holders to
 											actively engage in governance actions within
 											AragonOSx-powered DAOs. By leveraging the plugin's
@@ -95,7 +94,7 @@ export default function DaoTools() {
 									<h5 className="text-2xl font-semibold leading-8 text-white">
 										Liquid Protocol
 									</h5>
-									<p className="text-ash text-lg">
+									<p className="text-lg text-ash">
 										Subscribe to our newsletter to stay tuned on the release.
 									</p>
 								</div>
@@ -130,7 +129,7 @@ export default function DaoTools() {
 									<h5 className="text-2xl font-semibold leading-8 text-white">
 										Liquid Protocol
 									</h5>
-									<p className="text-ash text-lg">
+									<p className="text-lg text-ash">
 										Subscribe to our newsletter to stay tuned on the release.
 									</p>
 								</div>
@@ -166,7 +165,7 @@ export default function DaoTools() {
 										<h5 className="text-2xl font-semibold leading-8 text-white">
 											useAragon React Hooks
 										</h5>
-										<p className="text-ash text-lg">
+										<p className="text-lg text-ash">
 											A collection of react hooks containing everything you need
 											to integrate Aragon into your application.
 										</p>
@@ -209,7 +208,7 @@ export default function DaoTools() {
 											<h5 className="text-2xl font-semibold leading-8 text-white">
 												Optimistic Voting Plugin
 											</h5>
-											<p className="text-ash text-lg">
+											<p className="text-lg text-ash">
 												Optimistic voting plugin streamlines the decision-making
 												process in decentralized autonomous organizations (DAOs)
 												by leveraging subjective oracle flow. Malicious
@@ -249,7 +248,7 @@ export default function DaoTools() {
 								<h5 className="text-2xl font-semibold leading-8 text-white">
 									Optimistic Voting Plugin
 								</h5>
-								<p className="text-ash text-lg">
+								<p className="text-lg text-ash">
 									Optimistic voting plugin streamlines the decision-making
 									process in decentralized autonomous organizations (DAOs) by
 									leveraging subjective oracle flow. Malicious proposals can be
