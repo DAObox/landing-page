@@ -16,7 +16,7 @@ export default function Experience() {
 				<div className={Panchang.className}>
 					<h1 className="flex flex-col text-xl font-semibold text-center text-white sm:text-3xl">
 						<span>Experience the power</span>
-						<span>
+						<span className="lg:space-x-2.5 lg:flex">
 							<span>of decentralized</span>{" "}
 							<span className="invisible hidden sm:block sm:visible">
 								governance
